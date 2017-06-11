@@ -1,33 +1,16 @@
-//èëÇ´ä∑Ç¶Ç»Ç¢Ç≈Ç≠ÇæÇ≥Ç¢ÅB
+//è Ne pas effacer - ne pas modifier !
 
-@Initialize
-{
-	TEnemy();
-}
+@Initialize {TEnemy();}
 
-@MainLoop
-{
-	yield;
-}
+@MainLoop {yield;}
 
-@Finalize
-{
-}
+@Finalize {}
 
-task TEnemy
-{
+task TEnemy {
 	let path = GetMainStgScriptPath();
 	let idScript = LoadScript(path);
 	StartScript(idScript);
-
-	while(!IsCloseScript(idScript) && GetPlayerState() != STATE_END)
-	{
-		yield;
-	}
-
+	while(!IsCloseScript(idScript) && GetPlayerState() != STATE_END){yield;}
 	loop(300){yield;}
-
 	CloseStgScene();
 }
-
-
