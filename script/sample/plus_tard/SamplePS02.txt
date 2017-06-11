@@ -1,4 +1,4 @@
-#東方弾幕風[Stage]
+#[Stage]
 #ScriptVersion[3]
 #Title["SamplePS02"]
 #Text["SamplePS02：ピクセルシェーダ：マスク"]

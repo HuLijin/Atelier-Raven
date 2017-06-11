@@ -1,4 +1,4 @@
-#東方弾幕風[Single]
+#[Single]
 #ScriptVersion[3]
 #Title["SamplePS03"]
 #Text["SamplePS03：ピクセルシェーダ：ボス周囲のゆらぎエフェクト"]
