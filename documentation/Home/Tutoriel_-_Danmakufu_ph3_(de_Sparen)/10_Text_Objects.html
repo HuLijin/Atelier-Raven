@@ -1,0 +1,329 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>10 Text Objects</title>
+	<meta name='Generator' content='Zim 0.66'>
+	<style type='text/css'>
+		a          { text-decoration: none      }
+		a:hover    { text-decoration: underline }
+		a:active   { text-decoration: underline }
+		strike     { color: grey                }
+		u          { text-decoration: none;
+					 background-color: yellow   }
+		tt         { color: #2e3436;            }
+		pre        { color: #2e3436;
+					 margin-left: 20px          }
+		h1         { text-decoration: underline;
+					 color: #4e9a06; margin-bottom: 0 }
+		h2         { color: #4e9a06; margin-bottom: 0 }
+		h3         { color: #4e9a06; margin-bottom: 0 }
+		h4         { color: #4e9a06; margin-bottom: 0 }
+		h5         { color: #4e9a06; margin-bottom: 0 }
+		p          { margin-top: 0              }
+		span.zim-tag {
+			color: #ce5c00;
+		}
+		div.zim-object {
+			border-style:solid;
+			border-width:1px;
+		}
+		.checked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8sMEGsKGkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAEBUlEQVRIx62V22tdRRTGf7Nn73P2ybntnNOe3NqkPTGgLTVUUZF6QatSLOKTPgqCIqLgQ0H/A1sQQbBYCBb1QfAxiC8tSO1FqHkwJVKtjdTGNraUmObsc9nXmfGh7cGYpM1D5nHWzPetteZb3wg2eB2YqYm4zSadsMtoboiNBH/3TE0awx6j+MRoxoTg/IYRvP19TQrJS0bzhdHGSyKFkLTtjSKwMjyiEz43ynhtP6bdjBCWyFobAf7eT7VhNF/q1FRbjYjmUohlCVPwnB+6FUxMTJipqSmUUhhjEGKd3bMT4ks/Y6oLBK2Yth8hHYtCJXOix7Nf7xLMzc0xOzvLzp078TyPNE3viW3QJPXzhNWbxFFKHCmMhoLn/FHodd48vGfhapdAacXQlkFK5dL6wIUm6fuTZPuvqDQhaMUYYyiVyuQr6rXDexYuAdi3tSv1ZJNs/R/CaszzT+1na88uXFnCEnJVgivBNN8uTJKmHQI/ptOOcXNZzMz9mOqFs90OHpipWcYwlo5P4ebnuOkrvr5wgrH+h3im7y36MzuwRXYZeKha/OhP0EkadFoxQSdGSotedR/+XwMc2XvKdNUFOFqZx6LKZWIiwjgkikNmLp/hm8sH+K1zjFTHXfBYdTi+eJArzXM0GxFxoBDCopLvo/fqEwi1XPkWkGqjFo2TgB1jOYZUKZTS/D1/ncmLh7jon0IbRWoiTi59ymzzJEEQE3cStNZsGxqlfPE57MBbOR8fP3hDGalOO9fq2DlBvmZw8xa2IxACGn6TydlD/O6f5OzSV/zif0cYhLQaEXGkKBbz7Ov/AOlXV1cxgBJRI3fuSTrpTawt18kWIZN1CFuaONI0w0WOXfsI43YIggh/KUSlhqxrMz74AkOZcWBm9QkH+Gw8NDLuITi+m0yzhluSyJzBLcpblUhFxywSRAEtPwQjsKVN30CNh0uvYuOubSHLtN3J0TO1j0pmBNuFbFWRK0gyPRZpktL2I5JQkclKakNlnh54g6ocvevUr/Ai2a7wineEkcJupA3S1Wg0nVZM2E6wbEF5U5G9Q++wI7sfR7h3N8HVNstykBfzH+KJEZwiWD0aIwxCgJ0R1Mu7GXOeJSuK93bZtQIle4D9pUNU5DC5jEsu55AvZakM5NicGyEj8uuz8bUCQgj67QfY671P3vEoeC69gy695U1U7NG7XV0pUwBjDJa1/JJlWWxzHuflzQe5FJ/GsgUVuZ2t8lEkTvfc0aNHb72flBhjVicQQqCUuvM3/M+WDVguWBrMVdDXEGZlBVEUrVCU9d9s5+fnaTQa2PZyPxEIhJaI1EEoZwX4ncynp6fXrmB4eJjR0VFarRbNZnP9P9rt9gohqNVq1Ov1ZbF/AZGev3hLJ2/zAAAAAElFTkSuQmCC)}
+		.xchecked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8bDYnDxEwAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAEK0lEQVRIx9WVS2hTWRjHf/eR3CY1nbxMH2YiZRQS6qO13YlMVxY3SnVcuNIBFezGpSADLoQqLu1sHJCqdCFSXFpw4YOCSH3BtFqttTNamabX3DS5bfO6uffMoglja3RGcDMHzuac7/z/53++//cd+L8P6VuCPQYZ8ADNgBd4J31DcDcQs+GnHByRocEDv0kfBSjAOlYCs11Q+gpwDegS8LMJ+3QIK0ATzEhV8Odnz5bzw8P4dJ25aJQ/WlvJ1df/K7hSLtOcTNI+Pk69rpMTgqIQhCDvh1/VSpw79+gRrRMTmLZNezLJJsPg+a5dmOEwQlFqg1sWG16/Jv7sGWXDwBACFQjC9HcwIMONKkGp4PGAJGEDS0IQmZlhnWnye3c3eiyGo6qr3WHbrJ+dJf7gAXI6zSIr72T7/fgzmT4FHnTBsgrQBfYvTU0km5vxz86iADnAm0rRPTWFt7cXZccOJJcLAGHb2K9ekT93jmwmwwdAAFpjI6Ntbfxw5879ag7l6o1sr5eHHR3IsRgeQK/M4sQE+YEB7JcvEY6zAj45SWFgAPPxYwzHoQxIkQjTPT0kIxE+Noj8sexFn4/xnh58iQTeSpHkHAdrbIzi0BCOrmNPTpK/eJHM3bt8sCyKQCiR4NWePWSiUZw1+ZLXJm4pFKLhzBlCsRh2RUXacVgeGaF47RrL58+zcP8+RrmMkCQinZ1EL1zAjERqmkH+tLYl1G3bCJw4QUjT0IA0MJfLMX/5MqmHD0nZNiUgtGULG/r7ccXjINWuWbnmqsuFu7sb/4EDNLlcBIEioNs2KUAFGmMxmk6dQm1tRZI+3xBqEkiShBQOox05Ql1nJ26gvuIUAWiKQnj/ftStW5Fk+YuF+NldsbBA4cYN9KdPmaso8Fc62ZJtk7l1C2t0FGdxESHE1xE4hkHh6lX0oSHSpRIewC/LrPf7CSgKNpCamkI/fZr8pUuIZBIcpyaBunahPp1mub+fDyMjGKUSChCsq6Nh717q9u2jbnSU0uAgRrFIwTThyhUCqRS+hgZKLS1fJvDm87SNjZGcnsYUAjcQ8vsJ9/Xh7u1FDgRQN20iks3iDA+zZFmYhQLqzZtsj8WY3L0baY2Sf55ICCKpFHUzM2SEQAJCHg+hY8fQDh5EDgRWDoRC1J88SePRo2geD0XAcBy8b98Sv3ePYDZbbf2rFQjLIphMsmDbaEBQVQkePox26BCSz7e6i4bDrDt+nGYhmBscpFAskheC4Js3bPR4qHphFYEnlcI7P4/jdqNpGu8TCe4oCsXr1z//F2ga3+/cSfTJE0qmSVYIsKzaOZDcbjKyzFIiwfvt21kMBLA07YsetzWNd+3tLLW0sH5igvT8PH9Go/z44kX+E4LGjg7GDYOcy4XlOEgLC//5P/5LCFzxOPLmzWyIx+m6fduu7v0NVGqyTSycKksAAAAASUVORK5CYII=)}
+		.unchecked-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB9gKGQ8qAt8h3m8AAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAA60lEQVRIx+2VsQqDMBRF70sCLg5OLoKgjk7+lJ/hh+STXBwcnRz8ArMEkrxOFktbaC3tULzTg5e8k5vADXDq70VbobXmvu/hvQczg4heHrJfXxQFuq67blZbMc8zpmlCXddIkgTOuZcBUko45zCOI6y1Nz2xFSEEZFmGOI7fGg4A3nsQEZqmuXOu9jallACAtm3fvmutNaIoAjM/dkBECCF89KCbk4eAb+kEnIAT8EsAM0OIz3hSyrssUvss8t5fg+uIrLXPs0gIgWVZYIyBUurQyYdheO4gz3NUVQVjDNZ1PfSjpWmKsixvehfB9GBZ3NndrgAAAABJRU5ErkJggg==)}
+		.migrated-box {list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAANOgAADMQBiN+4gQAAAAd0SU1FB+AKHREFA8vJSnkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAC1klEQVRIx+2VT0hUURTGf/e958w4Tc3TYowMw1GyEgwr1MqsFmbZIrIWQZsWJUjbdoHQpl3Qps0swnCRECQFYkR/TC1iKkqmfzAKTo2Vf8hoRsfR995tkRMT87RRWkUHHhy495zvnvvu933wP/75EKkkEAjIYDCIaZpIKRFCZN0kfX9xcTGtra2/irVUEolECIfDlJeXo+s6hmFkDaCqKoZhEAqFSCaTv60pqcSyLAoLC/F4PEtqDmCaJkIIKisrMybX0sdUVRWA5ubmPzdNjjI1cpXkZC/O1fV03PXgdDqRUtpPIITAsqxsDz0Z/3CZQv8uqo4N4C8/Tp2/DdM0MiZQlvk41OTkI/LW1SGtCVb5drD3eCc71wcA+VcAHA5vDd8+3UGakxiJV7i9pdQevU5T1R35pJ3MV5QW1pf+0kWBheJ2SWua8EQXZXsu4fVVYEz1sEKvof5EuxjoPvzpcRvrdp9C2gGMx6cpOHBmbImMesds7BZubwMVDTfXDnQ3vQfK7AC8wLfExMX5whyQc3q2OEnjGm5vE76SQxsfBLr77a7CNf+n0r/l6sSMtsBSnurckiIILCobAtVZhpF4gZF4jubaymj4Ch/fd380LE7bAnjc0NPxk2yqpmEuwGxF0ag+0k5uTpzZeBeaazvj0We8fXojainsb2xh2BZgbe0gSIllzSIUh63wfQ6dZ/O2fbjcKlOj58jJ3cVENESw5yErc9nf2MLQ4jwQAkV1Lqiq37/cZ9WaahJjF9AcmxiPDhLs7ePe23oOnmUwg2hSShQle96tKDjA2HAniusgo9FxnvY9Jxw7RWzGYy92QghM00x5g53qp9sHmtB58/o2umOI2NwGolMnMYUHIb7aAyiKwsjICLqu2/qBEIKUUAohMaSHSLyBSMoPTINQ6CX5+fn2AEVFRZSUlBCPx4nFYhl3L4RESjF/GEgX3pSj+Xw+/H7/b3U/AEOZFnp7O5+5AAAAAElFTkSuQmCC)}
+		ul {list-style-image: none}
+		/* ul rule needed to reset style for sub-bullets */
+
+		span.insen { color: grey                }
+
+		.pages {
+			max-width: 1000px;
+			 padding-left: 320px;
+		}
+		.menu{
+			float:left; width: 300px;
+		}
+		hr{clear:both;}
+	</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class='header'>
+	[ <a href='./9_Sound_Objects.html'>Prev</a> ]
+
+	[ <span class='insen'>Index</span> ]
+
+	[ <a href='./11_Path,_Time,_and_Debug_Functions.html'>Next</a> ]
+</div>
+
+<hr />
+
+<div class="menu">
+<ul>
+<li><a href="../../Home.html" title="Home" class="page">Home</a>
+<ul>
+<li><a href="../Fonctions.html" title="Fonctions" class="page">Fonctions</a></li>
+<li><a href="../Tutoriel_-_Danmakufu_ph3_(de_Sparen).html" title="Tutoriel - Danmakufu ph3 (de Sparen)" class="page">Tutoriel - Danmakufu ph3 (de Sparen)</a>
+<ul>
+<li><a href="./1_Basics.html" title="1 Basics" class="page">1 Basics</a></li>
+<li><a href="./2_The_Danmakufu_Header_and_Framework.html" title="2 The Danmakufu Header and Framework" class="page">2 The Danmakufu Header and Framework</a></li>
+<li><a href="./3_Plurals.html" title="3 Plurals" class="page">3 Plurals</a></li>
+<li><a href="./4_Packages_and_.def_files_(Intermediate).html" title="4 Packages and .def files (Intermediate)" class="page">4 Packages and .def files (Intermediate)</a></li>
+<li><a href="./5_Boss_and_Enemy_Objects.html" title="5 Boss and Enemy Objects" class="page">5 Boss and Enemy Objects</a></li>
+<li><a href="./6_Shots_and_Lasers.html" title="6 Shots and Lasers" class="page">6 Shots and Lasers</a></li>
+<li><a href="./7_Move_and_Render_Objects.html" title="7 Move and Render Objects" class="page">7 Move and Render Objects</a></li>
+<li><a href="./8_Primitive_Objects_(Advanced).html" title="8 Primitive Objects (Advanced)" class="page">8 Primitive Objects (Advanced)</a></li>
+<li><a href="./9_Sound_Objects.html" title="9 Sound Objects" class="page">9 Sound Objects</a></li>
+<li><b>10 Text Objects</b></li>
+<li><a href="./11_Path,_Time,_and_Debug_Functions.html" title="11 Path, Time, and Debug Functions" class="page">11 Path, Time, and Debug Functions</a></li>
+<li><a href="./12_Mesh_Objects_(Advanced).html" title="12 Mesh Objects (Advanced)" class="page">12 Mesh Objects (Advanced)</a></li>
+<li><a href="./13_Render_Targets,_Shader_Objects_and_High_Level_Shader_Language_(Advanced).html" title="13 Render Targets, Shader Objects and High Level Shader Language (Advanced)" class="page">13 Render Targets, Shader Objects and High Level Shader Language (Advanced)</a></li>
+<li><a href="./14_File_Objects_(Advanced).html" title="14 File Objects (Advanced)" class="page">14 File Objects (Advanced)</a></li>
+<li><a href="./15_Common_Data_(Intermediate).html" title="15 Common Data (Intermediate)" class="page">15 Common Data (Intermediate)</a></li>
+<li><a href="./16_System_(Intermediate).html" title="16 System (Intermediate)" class="page">16 System (Intermediate)</a></li>
+<li><a href="./17_Background_and_Camera_Functions.html" title="17 Background and Camera Functions" class="page">17 Background and Camera Functions</a></li>
+<li><a href="./18_Script_and_System_Functions.html" title="18 Script and System Functions" class="page">18 Script and System Functions</a></li>
+<li><a href="./19_ShotSheets.html" title="19 ShotSheets" class="page">19 ShotSheets</a></li>
+<li><a href="./20_Players_(Intermediate).html" title="20 Players (Intermediate)" class="page">20 Players (Intermediate)</a></li>
+<li><a href="./21_Keyboard_and_Mouse_Input.html" title="21 Keyboard and Mouse Input" class="page">21 Keyboard and Mouse Input</a></li>
+<li><a href="./22_Misc_and_Unintended_Outcomes.html" title="22 Misc and Unintended Outcomes" class="page">22 Misc and Unintended Outcomes</a></li>
+<li><a href="./23_Debug_Window.html" title="23 Debug Window" class="page">23 Debug Window</a></li>
+<li><a href="./24_CREDITS.html" title="24 CREDITS" class="page">24 CREDITS</a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="../../Projet_Raven.html" title="Projet Raven" class="page">Projet Raven</a></li>
+<li><a href="../../Projet_Skyrim.html" title="Projet Skyrim" class="page">Projet Skyrim</a></li>
+</ul>
+
+</div>
+
+<!-- Wiki content -->
+
+<div class='pages'>
+	<div class='heading'>
+	<h1>10 Text Objects <a name='Home:Tutoriel - Danmakufu ph3 (de Sparen):10 Text Objects'></a></h1>
+	</div>
+
+	<div class='content'>
+	<p>
+Did you hate 0.12m's ugly DrawText? Well say bye to that ugly horror!
+</p>
+
+<p>
+ph3 brings in Text Objects. They are MUCH more customizable, not ugly at all, and can support a number of different fonts! YES! In ph3, you can use your own fonts (if they are supported)!
+</p>
+
+<p>
+ task CutinText(strText){<br>
+<div style='padding-left: 30pt'>
+ let objtext = ObjText_Create();<br>
+ ObjText_SetText(objtext, strText);<br>
+ Obj_SetRenderPriority(objtext, 0.74);//Render above cutin<br>
+ ObjText_SetFontSize(objtext, 16);<br>
+ ObjText_SetFontColorTop(objtext, 255, 64, 64);<br>
+ ObjText_SetFontColorBottom(objtext, 255, 64, 64);<br>
+ ObjText_SetFontBold(objtext, true);<br>
+ ObjText_SetFontBorderType(objtext, BORDER_FULL);<br>
+ ObjText_SetFontBorderColor(objtext, 0, 200, 200);<br>
+ ObjText_SetFontBorderWidth(objtext, 1);<br>
+ ObjRender_SetPosition(objtext, GetStgFrameLeft+5, GetStgFrameHeight-30, 0);<br>
+ loop(300){yield;}<br>
+ Obj_Delete(objtext);
+</div>
+ }<br>
+Above is the text I used for my spell cut in. You create a text object, set its render priority, set its font size, set font color, etc. The border is a full border around it, as seen in #Text when selecting players. Note that they are Render objects, and note that there are many more functions that I did not use for this particular task.
+</p>
+
+<p>
+Now you can ditch 0.12m DrawText and use this far-superior one. ^_^
+</p>
+
+<p>
+(Do note that text can be a little bit of a pain to position)
+</p>
+
+<p>
+Linked is a list of Text Object functions. Text Object Functions
+</p>
+
+<p>
+NOTE: Scripts made in ph3 [.0 pre23] and before may have text compatibility issues with ph3 [.1 pre2] and later. It is highly recommended that you install your own font so that you know if your words are being chopped in half and thrown onto different lines. Please note that InstallFont returns a boolean value; Make sure your font is actually being installed successfully.
+</p>
+
+<h2>SetHorizontalAlignment</h2>
+
+<br>
+
+<p>
+In this section, I will discuss usage of ObjText_SetHorizontalAlignment(obj, char), where char is one of the following:
+</p>
+
+<p>
+ALIGNMENT_CENTER<br>
+ALIGNMENT_RIGHT<br>
+ALIGNMENT_LEFT<br>
+Firstly, you MUST use ObjText_SetMaxWidth. Not using this will send your text flying off the screen.
+</p>
+
+<p>
+For an example, I will be centering the Spellcard Bonus text. task TGainSpell(score){
+</p>
+
+<p>
+<div style='padding-left: 60pt'>
+let objText = ObjText_Create();
+</div>
+<div style='padding-left: 30pt'>
+   ObjText_SetText(objText, "ExAttack Bonus!");<br>
+   //Code removed<br>
+   ObjText_SetHorizontalAlignment(objText, ALIGNMENT_CENTER);<br>
+   ObjText_SetMaxWidth(objText, 240);<br>
+   ObjRender_SetX(objText, 194-120);//Minus half the max width. 194 = 388/2 (388 is GetStgFrameWidth w/ r.p.&lt;80)<br>
+   ObjRender_SetY(objText, 98);<br>
+   //etc.
+</div>
+</p>
+
+<p>
+Look at ObjRender_SetX. Here, I have 194 pixels, which is 388 (the width of the playing area), divided by 2. This is the axis around which I want to center the text. Now, I subtract it by 120 pixels, which is half the maximum width of the max width. This shifts the text to the center. If it had been ObjRender_SetX(objText, 194), The area Danmakufu would have centered the text in would have been 194 pixels (the center of the playing field) + 240 pixels (maximum width).
+</p>
+
+<p>
+NOTE: Different fonts may not fit within the MaxWidth, pushing letters to the next line. Render priorities above 80 do not follow the 388 pixel rule, and you must use GetStgFrameLeft+388 for the x axis and GetStgFrameTop+your desired y coordinate for the equivalent to occur.
+</p>
+
+<p>
+If I wished to push the text to the left or right, I would follow a similar procedure.
+</p>
+
+<h2>Fonts</h2>
+
+<br>
+
+<p>
+Here I will discuss installing fonts.
+</p>
+
+<p>
+Here is some sample code that creates a text object. It will be referenced later.
+</p>
+
+<br>
+
+<p>
+<div style='padding-left: 30pt'>
+let objGraze = ObjText_Create();
+</div>
+   ObjText_SetText(objGraze, "Graze");<br>
+   ObjText_SetFontSize(objGraze,20);<br>
+   ObjText_SetFontType(objGraze,"Fairview Regular");<br>
+   ObjText_SetFontBold(objGraze, true);<br>
+   //etc
+</p>
+
+<p>
+Let us consider 4 possibilities. Parentheses used to denote order of operations.
+</p>
+
+<p>
+1: The font Fairview Regular is not installed on the user's computer AND (has not been installed by InstallFont OR InstallFont failed)<br>
+2: The font Fairview Regular has been installed on the user's computer AND (has not been installed by InstallFont OR InstallFont failed)<br>
+3: The font Fairview Regular is not installed on the user's computer AND (has been installed by InstallFont OR InstallFont succeeded)<br>
+4: The font Fairview Regular has been installed on the user's computer AND (has been installed by InstallFont OR InstallFont succeeded)<br>
+In the first scenario, no luck. The font will display in MS Gothic or in something weird, like Times New Roman or Arial. It will usually default to MS Gothic or whatever your computer's default fonts are.
+</p>
+
+<p>
+In the second and third scenarios, the font has been installed somewhere and therefore, Danmakufu can use it without any issues.
+</p>
+
+<p>
+In the last scenario, it works. Simple.
+</p>
+
+<p>
+Now, how to install fonts? Use InstallFont, which returns a boolean value.
+</p>
+
+<br>
+
+<p>
+<div style='padding-left: 30pt'>
+InstallFont(GetCurrentScriptDirectory~"./../Helvetica.dfont");
+</div>
+   InstallFont(GetCurrentScriptDirectory~"./../Andale Mono.ttf");<br>
+   InstallFont(GetCurrentScriptDirectory~"./../Revue.ttf");<br>
+   InstallFont(GetCurrentScriptDirectory~"./../Russell Square Regular.ttf");<br>
+   InstallFont(GetCurrentScriptDirectory~"./../Fairview_Regular.otf");<br>
+   <i>if(!test){RaiseError("Font Install Failed");} </i>Test code
+</p>
+
+<p>
+This code is located at the bottom of <span class="zim-tag">@Initialize</span> in my system file, called by #System. It is also good to place your font installation code in the <span class="zim-tag">@Initialize</span> of your package as well if you are using a package.
+</p>
+
+<p>
+When installing, you give InstallFont the path to the font, NOT it's name. Now, let us utilize the test code.
+</p>
+
+<br>
+
+<p>
+<div style='padding-left: 30pt'>
+InstallFont(GetCurrentScriptDirectory~"./../Russell Square Regular.ttf");
+</div>
+   let test = InstallFont(GetCurrentScriptDirectory~"./../Fairview_Regular.otf");<br>
+   if(!test){RaiseError("Font Install Failed");} //Test code
+</p>
+
+<p>
+This code tests whether Fairview Regular is being successfully installed. If it is NOT successfully installed, Danmakufu will raise an error popup. If it is successfully installed, the script will continue as normal. Run the test for each and every font to make sure there are no errors. Of course, when all are succeeded, comment out the test code. It's best to tell those who download your script to install the fonts anyways.
+</p>
+
+<p>
+As for using the fonts, we will reference the code posted above:
+</p>
+
+<br>
+
+<p>
+<div style='padding-left: 30pt'>
+let objGraze = ObjText_Create();
+</div>
+   ObjText_SetText(objGraze, "Graze");<br>
+   ObjText_SetFontSize(objGraze,20);<br>
+   ObjText_SetFontType(objGraze,"Fairview Regular");<br>
+   ObjText_SetFontBold(objGraze, true);<br>
+   //etc
+</p>
+
+<p>
+There is a call to use the font Fairview Regular here. When using SetFontType, address the font by its name, NOT its path. If the font has not been installed/incorrect font name, the default font or last used font or some other font will be used instead. Obviously, this is not desirable.
+</p>
+
+<p>
+That's fonts in a nutshell. Make sure to test it yourself.
+</p>
+
+	</div>
+
+	<br />
+
+	<div class='page-footer'>
+		<b>Backlinks:</b>
+
+		<a href='../Tutoriel_-_Danmakufu_ph3_(de_Sparen).html'>Home:Tutoriel - Danmakufu ph3 (de Sparen)</a>
+
+		<br /><br />
+
+	</div>
+
+	
+
+</div>
+
+</body>
+</html>
