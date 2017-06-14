@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T14:48:39+02:00
-
-====== GetAllEnemyID ======
-
-Returns: ID (real, array)
-Gets the ID of every enemy present on the screen, and returns them in an array.

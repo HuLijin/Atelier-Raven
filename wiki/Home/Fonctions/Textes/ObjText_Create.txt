@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T15:10:20+02:00
-
-====== ObjText Create ======
-
-Returns: object ID (real)
-Creates a Text object and returns its ID.

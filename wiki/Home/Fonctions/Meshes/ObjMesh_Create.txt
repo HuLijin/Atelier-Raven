@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T15:02:55+02:00
-
-====== ObjMesh Create ======
-
-Returns: object ID (real)
-Creates a 3D mesh object and returns its ID.

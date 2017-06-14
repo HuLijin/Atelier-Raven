@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T12:59:34+02:00
-
-====== IsCommonDataAreaExists ======
-
-Parameters:
- 1) common data area (char)
-Returns whether the specified common data area exists.

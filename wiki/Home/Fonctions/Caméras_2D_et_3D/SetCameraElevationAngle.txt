@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T14:39:39+02:00
-
-====== SetCameraElevationAngle ======
-
-Arguments:
- 1) elevation angle from focus point (real)
-Sets the elevation angle from the focus point.

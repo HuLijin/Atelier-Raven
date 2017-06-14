@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T09:11:02+02:00
-
-====== GetReplayFps ======
-
-Returns the FPS of the replay at the current time. Note that this value refreshes as a much slower rate than GetCurrentFps.
-

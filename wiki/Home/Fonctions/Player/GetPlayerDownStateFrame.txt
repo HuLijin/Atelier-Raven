@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T08:39:11+02:00
-
-====== GetPlayerDownStateFrame ======
-
-Returns the amount of frames that the player will spend in the down state.

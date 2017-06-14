@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T14:36:49+02:00
-
-====== SetReplaySaveSceneScriptPath ======
-
-Arguments:
- 1) path to the end scene script (string)
-Defines the script that should be executed when the player chooses to save a replay of the game.

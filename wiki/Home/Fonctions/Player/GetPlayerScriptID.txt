@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T08:41:28+02:00
-
-====== GetPlayerScriptID ======
-
-Returns the player's script ID. This function returns the same value as GetOwnScriptID when used inside the player script.

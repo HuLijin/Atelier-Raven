@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T08:39:35+02:00
-
-====== GetPlayerID ======
-
-Returns the system ID of the player script. This value is defined inside the player script in the #ID header.

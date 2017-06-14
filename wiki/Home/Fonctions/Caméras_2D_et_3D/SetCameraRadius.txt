@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T14:39:14+02:00
-
-====== SetCameraRadius ======
-
-Arguments:
- 1) distance (real)
-Sets the distance of the camera to the focus point.

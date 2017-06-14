@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T16:22:20+02:00
-
-====== ObjShot Regist ======
-
-Parameters:
- 1) object ID (real)
-Activates the shot object, which will now be fired.

@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T16:18:20+02:00
-
-====== StartShotScript ======
-
-Arguments:
-	1) script path
-Starts a shot script.

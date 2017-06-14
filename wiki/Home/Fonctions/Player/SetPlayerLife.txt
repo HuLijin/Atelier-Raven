@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T08:45:32+02:00
-
-====== SetPlayerLife ======
-
-Arguments:
- 1) value (real)
-Sets value as life points for the player (can be non integer).

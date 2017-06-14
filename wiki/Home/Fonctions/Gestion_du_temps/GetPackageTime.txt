@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T09:10:39+02:00
-
-====== GetPackageTime ======
-
-Returns a number with the amount of time that has been elapsed since the start of the package script. The value is in milliseconds.
-

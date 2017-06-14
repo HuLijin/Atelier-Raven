@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T14:37:09+02:00
-
-====== GetTransitionRenderTargetName ======
-
-Specifically to be used by menu scripts such as the pause script. This can be used to create a texture of the previous frame just before the game is paused. This allows for effects to be applied such as fading to a blur.

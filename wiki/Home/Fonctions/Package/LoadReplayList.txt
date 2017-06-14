@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T14:41:55+02:00
-
-====== LoadReplayList ======
-
-Loads a list of the available replays for the current script.

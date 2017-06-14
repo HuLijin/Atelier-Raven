@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-05T09:54:20+02:00
-
-====== ReloadItemData ======
-
-Arguments:
-	1) script path
-Reloads the specified item data. Can be called any amount of times, but currently existing IDs will be replaced by new ones of the same value. You do not need to use LoadItemData before using this function.

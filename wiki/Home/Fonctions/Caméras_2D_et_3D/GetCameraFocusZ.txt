@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T14:40:58+02:00
-
-====== GetCameraFocusZ ======
-
-Returns the z-coordinate of the focus point.

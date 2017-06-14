@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T12:58:12+02:00
-
-====== DeleteCommonData ======
-
-Parameters:
- 1) key (char)
-Removes the common data mapping with the specified key.

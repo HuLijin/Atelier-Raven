@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T12:13:43+02:00
-
-====== LoadPlayerShotData ======
-
-Arguments:
- 1) path of the file (char)
-Loads the shot data image file. If called several times, loads each file in succession. A file cannot be loaded multiple times in a row.

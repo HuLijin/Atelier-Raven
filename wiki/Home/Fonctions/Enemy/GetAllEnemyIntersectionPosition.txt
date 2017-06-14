@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T14:49:09+02:00
-
-====== GetAllEnemyIntersectionPosition ======
-
-Returns: 2D array (real)
-Gets the the position of all enemies for which collision detection is true (currently intersecting), and returns it in a 2-dimension array ([index][<x-coordinate, y-coordinate>]).

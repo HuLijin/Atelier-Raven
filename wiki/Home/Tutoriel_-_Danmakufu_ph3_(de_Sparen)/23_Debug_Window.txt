@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-01T17:34:44+02:00
-
-====== 23 Debug Window ======
-
-ph3 comes with a debug window that can be used for a large variety of purposes. In config, click the first box in order to use the Log Window.
-
-The first tab is Log. It states everything that the program does, complete with timestamps. Info provides data such as fps, screen dimensions, number of objects, etc, as well as other helpful data. Task is a basic task manager that states the Hex of the task address as week as other information. Texture, Mesh, and Sound include all of the files loaded/in use by Danmakufu. This is a good place to check if you've actually loaded certain resources. In CommonData, the top screen shows AreaCommonData, while the bottom shows CommonData nested underneath AreaCommonData. All CommonData that are not specified to be AreaCommonData are under the first line, which is blank. Click that to show the values of CommonData. Finally, in Script, you can automatically terminate your script.

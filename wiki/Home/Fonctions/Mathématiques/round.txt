@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-05T16:22:14+02:00
-
-====== round ======
-
-Arguments:
- 1) value
-Returns the value as an integer. Values of 0.5 or greater are rounded up; otherwise they are rounded down.

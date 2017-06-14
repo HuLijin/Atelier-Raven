@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T14:38:49+02:00
-
-====== SetStageIndex ======
-
-Arguments:
- 1) index of the stage (real)
-Defines the index of the stage to be started next. The value does not need to be sequential.

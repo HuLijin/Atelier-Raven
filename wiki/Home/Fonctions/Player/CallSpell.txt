@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T12:12:51+02:00
-
-====== CallSpell ======
-
-If the conditions to use a spell card are met, uses the spell card.

@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T14:38:14+02:00
-
-====== Get2DCameraRatioX ======
-
-Returns the x zoom ratio of the camera.

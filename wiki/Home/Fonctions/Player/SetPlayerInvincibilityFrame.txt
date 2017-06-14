@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T08:45:22+02:00
-
-====== SetPlayerInvincibilityFrame ======
-
-Arguments:
- 1) invincibility frames (real)
-Sets the amount of frames for player invincibility.

@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T14:48:57+02:00
-
-====== GetFilePathList ======
-
-Parameters:
- 1) file path (char)
-Returns a list of files in the folder of the specified file path (or folder path).

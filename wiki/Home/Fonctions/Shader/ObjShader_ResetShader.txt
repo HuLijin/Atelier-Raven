@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T12:52:32+02:00
-
-====== ObjShader ResetShader ======
-
-Arguments:
- 1) object ID (real)
-Clear the shader of the specified object.

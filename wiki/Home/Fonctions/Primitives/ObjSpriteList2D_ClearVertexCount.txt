@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T15:00:36+02:00
-
-====== ObjSpriteList2D ClearVertexCount ======
-
-Arguments:
- 1) object ID (real)
-Clears vertex count for the specified object.

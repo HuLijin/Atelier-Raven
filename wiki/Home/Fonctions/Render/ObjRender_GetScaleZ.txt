@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T11:20:01+02:00
-
-====== ObjRender GetScaleZ ======
-
-Arguments:
- 1) object ID (real)
-Returns the z-scale of the object.

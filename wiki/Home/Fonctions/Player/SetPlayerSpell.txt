@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T08:46:32+02:00
-
-====== SetPlayerSpell ======
-
-Arguments:
- 1) value (real)
-Sets the amount of bombs available for the player (can be non integer).

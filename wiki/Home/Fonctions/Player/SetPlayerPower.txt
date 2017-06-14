@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T08:45:42+02:00
-
-====== SetPlayerPower ======
-
-Arguments:
- 1) value (real)
-Sets the amount of power points (can be non integer).

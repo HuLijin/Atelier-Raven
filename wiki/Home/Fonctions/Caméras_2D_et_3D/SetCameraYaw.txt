@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T14:39:47+02:00
-
-====== SetCameraYaw ======
-
-Arguments:
- 1) yaw angle of the camera (real)
-Sets the horizontal Yaw angle of the camera.

@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T14:49:50+02:00
-
-====== GetMainStgScriptDirectory ======
-
-Returns the directory of the current stage of the script running.

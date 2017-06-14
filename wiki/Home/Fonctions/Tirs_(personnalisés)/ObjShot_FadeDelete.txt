@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T16:22:50+02:00
-
-====== ObjShot FadeDelete ======
-
-Parameters:
- 1) object ID (real)
-Fades out the shot object and deletes it.

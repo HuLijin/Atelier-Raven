@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T09:39:26+02:00
-
-====== RemoveSound ======
-
-Arguments:
- 1) path (char)
-Removes specified sound file.

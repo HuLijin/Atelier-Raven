@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T11:09:53+02:00
-
-====== SetFogEnable ======
-
-Arguments:
- 1) true / false (bool)
-Enables or disables fog.

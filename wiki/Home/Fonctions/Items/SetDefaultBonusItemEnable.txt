@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-05T09:54:07+02:00
-
-====== SetDefaultBonusItemEnable ======
-
-Arguments:
-	1) boolean
-Sets whether or not to create the default autocollected bullet delete items when bullets are deleted to items. True will create the items, false will not. The default value is true.

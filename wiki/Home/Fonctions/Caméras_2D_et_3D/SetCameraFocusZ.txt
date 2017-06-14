@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T14:39:00+02:00
-
-====== SetCameraFocusZ ======
-
-Arguments:
- 1) z-coordinate (real)
-Sets the z-coordinate of the camera focus.

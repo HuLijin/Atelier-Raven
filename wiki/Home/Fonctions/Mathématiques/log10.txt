@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-05T16:20:24+02:00
-
-====== log10 ======
-
-Arguments:
- 1) value
-Returns the common (base 10) logarithm of the value.

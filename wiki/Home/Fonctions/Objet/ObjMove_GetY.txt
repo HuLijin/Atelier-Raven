@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T09:34:12+02:00
-
-====== ObjMove GetY ======
-
-Arguments:
- 1) object ID (real)
-Returns the y coordinate of the object.

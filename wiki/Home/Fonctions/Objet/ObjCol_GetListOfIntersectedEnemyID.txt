@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T09:36:37+02:00
-
-====== ObjCol GetListOfIntersectedEnemyID ======
-
-Parameters:
- 1) object ID (real)
-Returns an array of all enemy object IDs that the specified object is currently intersecting with.

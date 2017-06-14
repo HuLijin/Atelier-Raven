@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T15:00:24+02:00
-
-====== ObjSpriteList2D CloseVertex ======
-
-Arguments:
- 1) object ID (real)
-Adds the last vertex to the object. Transforming the object with ObjRender_ will affect all rectangles after using this function.

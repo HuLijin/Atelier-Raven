@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T08:42:38+02:00
-
-====== GetPlayerX ======
-
-Returns: x-coordinate (real)
-Gets the x-coordinate of the player.

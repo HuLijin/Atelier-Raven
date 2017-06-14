@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T14:25:19+02:00
-
-====== GetScore ======
-
-Returns the current score.

@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-05T09:53:20+02:00
-
-====== CollectAllItems ======
-
-Makes all items fly towards the player.

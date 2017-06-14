@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-01T17:30:35+02:00
-
-====== 17 Background and Camera Functions ======
-
-Unfortunately, after a year of ph3, I still don't understand what I'm doing when making 3D backgrounds. However, control 2D backgrounds as you would other 2D sprite objects. This section will most likely need another completely separate tutorial, as it is an extensive subject covering mesh, 3D Sprite, and 2D sprites in conjunction with 2D and 3D camera functions as well as pathing, boolean manipulation, alpha and rgb manipulation, and more.

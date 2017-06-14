@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-06T15:25:40+02:00
-
-====== RaiseError ======
-
-Arguments:
- 1) string (char)
-Creates an error box with the specified string. Execution of the script is stopped, closing the script.

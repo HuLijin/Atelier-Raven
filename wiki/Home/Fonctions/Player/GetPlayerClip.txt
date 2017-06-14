@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2015-09-04T08:38:56+02:00
-
-====== GetPlayerClip ======
-
-Returns: clip (real)
-Gets the player's clip in an array [left, top, right, bottom].
