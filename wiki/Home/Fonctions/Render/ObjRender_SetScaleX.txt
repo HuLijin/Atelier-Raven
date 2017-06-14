@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:17:23+02:00
+
+====== ObjRender SetScaleX ======
+
+Arguments:
+ 1) object ID (real)
+ 2) x-scale (real)
+Sets the x-scale of the object.

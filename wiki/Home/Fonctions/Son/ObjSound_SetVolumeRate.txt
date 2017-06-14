@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:42:12+02:00
+
+====== ObjSound SetVolumeRate ======
+
+Arguments:
+ 1) object ID (real)
+ 2) volume (real)
+Sets the volume of the sound object (0-100).

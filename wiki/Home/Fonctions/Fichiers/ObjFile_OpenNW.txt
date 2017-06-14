@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:05:48+02:00
+
+====== ObjFile OpenNW ======
+
+Ouvre un fichier texte en mode __écriture__ et associe le fichier ouvert à un objet fichier.
+
+== Input ==
+object ID (real)
+file path (char)

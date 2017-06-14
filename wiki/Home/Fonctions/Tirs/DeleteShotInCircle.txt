@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:07:20+02:00
+
+====== DeleteShotInCircle ======
+
+Arguments:
+	1) type
+	2) delete type
+	3) x-coordinate
+	4) y-coordinate
+	5) radius
+Same as DeleteShotAll, except it will only clear bullets in a defined circle.

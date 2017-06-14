@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T17:29:41+02:00
+
+====== 15 Common Data (Intermediate) ======
+
+In 0.12m, Common Data was a precious means of storing data for use over a number of scripts. However, it didn't always... work correctly. Well... in ph3, it works. Very well.
+
+Common Data are organized into Area Common Data, which contain Common Data inside them. Unless you specify which 'area' a Common Data is located in, it will be in the "" Area Common Data. This is the first slot in the Common Data debug window (the blank one), and you can access the values from there.
+
+Note that GetCommonData now acts the same as GetCommonDataDefault did in 0.12m. The main usage of Area Common Data is for organizational purposes and for saving information to files. Most of the CommonData functions are self explanatory.
+
+In ph3, loading and saving Common Data to files is much simpler. Just use one of the save functions and it will save to a specified file (A2) or just save into a data directory (A1). You can also save specified Area Common Data to replay files.
+
+Note that if you want to save CommonData to a replay, doing so may desync or otherwise damage the replay. PLEASE use Replay Comments. For more information on replay comments, it is recommend that you visit a Q&A thread such as the one in Rika and Nitori's Garage Experiments. Basically, you save CommonData as strings linked by / or some other barrier separating them and when you load the replay comment, you separate the individual CommonData using the /. In order to understand replay comments, you must have a working knowledge of splitting strings and converting data from one form to another, such as integers to strings and back. Please do not try this unless you are either making a large project or know enough about splitting strings to effectively utilize Replay Comments, as it will cause unnecessary stress and confusion.
+
+Note that in a BossScene, if CommonData are defined outside of a block such as @Initialize, they will be overridden by the value presented in the next Single added to the BossScene. Therefore, it is recommended that you set your Single script specific CommonData in @Initialize. Note that in 0.12m, the default value of a CommonData is the string "0". In ph3, you are required to define your own default. Make sure that the type of your default is the same as the type you will be using with it. For example, the default for a String CommonData would be "", etc.
+
+Note that Obj_SetValue can act similarly to CommonData. However, you are required to pass a string through Obj_SetValue.

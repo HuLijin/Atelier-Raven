@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:42:02+02:00
+
+====== ObjSound Stop ======
+
+Arguments:
+ 1) object ID (real)
+Stops the sound file associated to the object.

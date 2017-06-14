@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:42:42+02:00
+
+====== ObjSound SetLoopEnable ======
+
+Arguments:
+ 1) object ID (real)
+ 2) loop (bool)
+When set to true, the sound will loop.

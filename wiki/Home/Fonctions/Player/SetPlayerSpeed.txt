@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T08:46:21+02:00
+
+====== SetPlayerSpeed ======
+
+Arguments:
+ 1) normal speed (real)
+ 2) focus speed (real)
+Sets the normal speed and focus speed of the player.

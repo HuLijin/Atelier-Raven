@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:51:49+02:00
+
+====== ObjEnemy AddLife ======
+
+Arguments:
+ 1) object ID (real)
+ 2) life (real)
+Adds the specified amount of life points to the enemy's life.

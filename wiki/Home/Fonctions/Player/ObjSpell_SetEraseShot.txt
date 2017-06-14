@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T12:14:48+02:00
+
+====== ObjSpell SetEraseShot ======
+
+ 1) object ID (real)
+ 2) can delete bullets (bool)
+Determines whether the specified spell objects can delete enemy bullets. Defaults to true.

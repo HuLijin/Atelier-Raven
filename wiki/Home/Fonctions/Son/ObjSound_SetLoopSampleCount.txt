@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:43:11+02:00
+
+====== ObjSound SetLoopSampleCount ======
+
+Arguments:
+ 1) object ID (real)
+ 2) loop sample start (real)
+ 3) loop sample end (real)
+Sets the timing of the loop based on the sample count.

@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:10:13+02:00
+
+====== SetFogParam ======
+
+Arguments:
+ 1) starting point (distance from the player)
+ 2) ending point (distance from the player)
+ 3) color (R)
+ 4) color (G)
+ 5) color (B)
+Sets the fog parameters.
+
+To turn the screen dark around the player, you can use SetFogParam(250, 700, 0, 0, 0).

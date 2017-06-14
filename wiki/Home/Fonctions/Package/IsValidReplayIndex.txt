@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:42:17+02:00
+
+====== IsValidReplayIndex ======
+
+Arguments:
+ 1) Index of the replay file (real)
+Return value:
+ Whether the inputted replay index can be used (bool)
+Returns true or false depending on the index chosen is valid to be used in GetReplayInfo.

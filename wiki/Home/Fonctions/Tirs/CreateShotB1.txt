@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:08:34+02:00
+
+====== CreateShotB1 ======
+
+Arguments:
+	1) x-coordinate
+	2) y-coordinate
+	3) x speed
+	4) y speed
+	5) graphic
+	6) delay
+Returns:
+	Object ID
+Same as CreateShotA1, except you can define separate x and y speeds for the bullet.

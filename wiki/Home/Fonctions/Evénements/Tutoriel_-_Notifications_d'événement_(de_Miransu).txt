@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-02T17:09:03+02:00
+
+====== Tutoriel - Notifications d'événement (de Miransu) ======
+Traduit par Hu Lijin
+
+Avec Danmakufu 0.12m, la seule manière de transmettre des informations d'un script à l'autre était d'utiliser les Common Data. Dans certains cas, elles étaient utilisées pour à un certain script que c'était lemoment où il devait exécuter certaines actions.
+Avec Danmakufu ph3, dans ce genre de cas précis, on utilisera la nouvelle boucle ''@Event'', les notifications prédéfinies et les fonctions ''NotifyEvent'' et ''NotifyEventAll'' . Comme ces deux fonctions acceptent des arguments (voir plus bas), on peut faire quasiment tout ce qu'on veut avec la boucle ''@Event''. Et vous êtes ici  pour apprendre comment faire !
+
+===== Contenu =====
+
+[[+1 Avant de commencer]]
+[[+2 Les notifications prédéfinies]]
+[[+3 NotifyEvent]]
+[[+4 Passer des arguments]]
+[[+5 Multi notifications]]
+[[+Spécificités du script Package]]

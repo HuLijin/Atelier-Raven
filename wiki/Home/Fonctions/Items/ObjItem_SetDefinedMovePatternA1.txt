@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-05T09:52:11+02:00
+
+====== ObjItem SetDefinedMovePatternA1 ======
+
+Parameters:
+ 1) object ID (real)
+ 2) movement type (real)
+Sets the movement type of the item object. Movement types are:
+
+ITEM_MOVE_DOWN: immediately drops down
+ITEM_MOVE_TOPLAYER: automatically flies towards the player
+Defaults to flying upwards and then coming down.

@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:14:22+02:00
+
+====== Obj IsDeleted ======
+
+Arguments:
+ 1) object ID (real)
+
+Returns: bool
+Returns true if the specified object has been deleted.

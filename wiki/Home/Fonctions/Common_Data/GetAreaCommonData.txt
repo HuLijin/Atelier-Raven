@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T12:58:34+02:00
+
+====== GetAreaCommonData ======
+
+Parameters:
+ 1) common data area (char)
+ 2) key (char)
+ 3) default value (free)
+Returns the value associated with the given key in the specified area in common data. Returns the default value if no value had been stored to it previously.

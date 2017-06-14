@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:25:29+02:00
+
+====== AddScore ======
+
+Arguments:
+	1) value
+Adds the given value to the score.

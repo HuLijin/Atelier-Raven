@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T08:45:08+02:00
+
+====== SetPlayerDownStateFrame ======
+
+Arguments:
+	1) Player Downed Length (in frames)
+Sets the amount of frames that will wait before respawning the player.

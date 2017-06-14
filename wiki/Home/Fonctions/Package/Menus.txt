@@ -1,0 +1,48 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:44:03+02:00
+
+====== Menus ======
+
+This script will be called during the pause screen(and etc),
+
+and can be used to customize the menu system screen.
+
+and is placed at the head of the text file.
+
+For a sample, please refer to the default script within Danmakufu.
+
+
+Regardless, it is necessary to use SetScriptResult to set the specific points. (?)
+
+Player and bullets cannot be manipulated within these scripts.
+
+'''
+Pause                     |   This script will be called when Danmakufu is paused.
+                          |   Use SetPauseScriptPath withing the system script to set the Pause script to use.
+                          |
+                          |   It is necessary to set the following with SetScriptResult:
+                          |
+                          |      -   RESULT_CANCEL            : Resume game
+                          |      -   RESULT_END               : Script : Quit
+                          |      -   RESULT_RETRY             : Retry
+______________________________________________________________________________________________________________________________________
+                         
+STG Scene End             |   This will be called upon game over-ing or clearing the stage.
+                          |   /script/default_system/Default_EndScene.txt is used by default.
+                          |   
+                          |   It is necessary to set the following with SetScriptResult:
+                          |
+                          |      -   RESULT_SAVE_REPLAY       : Save Replay
+                          |      -   RESULT_END               : Script : Quit
+                          |      -   RESULT_RETRY             : Retry
+______________________________________________________________________________________________________________________________________
+
+Replay Register           |   This will be called when the replay is being registered.
+                          |   /script/default_system/Default_ReplaySaveScene.txt is used by default.
+                          |   
+                          |   It is necessary to set the following with SetScriptResult:
+                          |   
+                          |      -   RESULT_CANCEL            : Cancel
+                          |      -   RESULT_END               : Quit Replay
+'''

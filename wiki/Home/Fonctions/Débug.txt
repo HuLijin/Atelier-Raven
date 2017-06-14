@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:45:32+02:00
+
+====== Débug ======
+
+La fonction de débug [[+WriteLog]] est à utiliser conjointement avec la fenêtre de débug de ph3. Pour afficher cette fenêtre, cocher la première case de la fenêtre de config.
+
+Le premier onglet de la fenêtre de  débug est l'onglet Log. Par défaut, un certain nombre de choses y sont marquées par le logiciel au cours de l'exécution du jeu.
+Chaque action estprécédée d'un timestamp.
+[[+WriteLog]] permet d'écrire des messages personnalisés dans le log.
+
+[[+RaiseError]] a un caractère plus radical : il affiche une infoboite qui stoppe l'exécution du jeu et qui affiche un message d'erreur personnalisé.
+
+===== Contenu =====
+
+[[+WriteLog]]
+[[+RaiseError]] 
+
+

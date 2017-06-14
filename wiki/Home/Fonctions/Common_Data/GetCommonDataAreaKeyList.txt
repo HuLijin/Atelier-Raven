@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:00:24+02:00
+
+====== GetCommonDataAreaKeyList ======
+
+Returns an array of all common data area names.

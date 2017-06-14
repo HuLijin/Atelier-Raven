@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:12:23+02:00
+
+====== SaveRenderedTextureA2 ======
+
+Arguments:
+ 1) target name (char)
+ 2) file name (char)
+ 3) save rectangle (left) (real)
+ 4) save rectangle (up) (real)
+ 5) save rectangle (right) (real)
+ 6) save rectangle (down) (real)
+Saves rendered texture to file.
+
+You have to set the coordinates of the region to capture.
+
+The image file created by this function can be used immediately after its execution.

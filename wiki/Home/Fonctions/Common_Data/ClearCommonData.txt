@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T12:57:54+02:00
+
+====== ClearCommonData ======
+
+Supprime tous les Common Data de la zone par défaut.
+

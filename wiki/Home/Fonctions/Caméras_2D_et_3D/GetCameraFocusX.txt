@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:40:43+02:00
+
+====== GetCameraFocusX ======
+
+Returns the x-coordinate of the focus point.

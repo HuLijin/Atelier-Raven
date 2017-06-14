@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:29:09+02:00
+
+====== IsReplay ======
+
+Returns true if a replay is playing, false otherwise.

@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:06:25+02:00
+
+====== rtoa ======
+
+(real number to string)
+Arguments:
+ 1) value
+Converts any real number to a string.

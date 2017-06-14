@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:51:59+02:00
+
+====== ObjEnemy SetDamageRate ======
+
+Arguments:
+ 1) object ID (real)
+ 2) shot damage rate (real)
+ 3) spell damage rate (real)
+Sets the damage rate of the player's attacks against the specified enemy. Setting to 0 will cause the enemy to take no damage, 100 is the default (100%) value. Values above 100 are possible. Values below 0 are also possible, but may cause the boss health to overflow.

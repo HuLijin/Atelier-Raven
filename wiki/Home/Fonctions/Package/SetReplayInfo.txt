@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:42:39+02:00
+
+====== SetReplayInfo ======
+
+Arguments:
+ 1) Various information
+	  REPLAY_COMMENT (char): A short comment set arbitrarily
+ 2) The replay information (varies depending on information type)
+Sets the replay information. Curently only to be used with REPLAY_COMMENT.

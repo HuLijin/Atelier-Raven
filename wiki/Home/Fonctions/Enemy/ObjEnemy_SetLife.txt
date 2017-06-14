@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:51:38+02:00
+
+====== ObjEnemy SetLife ======
+
+Arguments:
+ 1) object ID (real)
+ 2) life (real)
+Sets the amount of life points for the specified enemy object.

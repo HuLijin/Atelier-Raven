@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:51:17+02:00
+
+====== ObjEnemy GetInfo ======
+
+Arguments:
+ 1) object ID (real)
+ 2) info type (constant)
+INFO_LIFE: Returns the life points of the enemy (real).
+INFO_DAMAGE_RATE_SHOT: Returns the damage rate percentage of normal player shots set by ObjEnemy_SetDamageRate (real: 1-100)
+INFO_DAMAGE_RATE_SPELL: Returns the damage rate percentage of player bombs set by ObjEnemy_SetDamageRate (real: 1-100)
+INFO_SHOT_HIT_COUNT: Returns the amount of times the enemy was hit by player bullets in the previous frame

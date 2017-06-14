@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:02:04+02:00
+
+====== LoadCommonDataAreaA2 ======
+
+Parameters:
+1) common data area (char)
+2) file path (char)
+Loads everything in the specified common data area from the saved data file at the specified path. Returns true if successful and false if the operation failed.

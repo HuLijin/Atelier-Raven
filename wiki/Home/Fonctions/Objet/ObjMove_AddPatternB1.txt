@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:33:22+02:00
+
+====== ObjMove AddPatternB1 ======
+
+Arguments:
+ 1) object ID (real)
+ 2) frame (real)
+ 3) x speed (real)
+ 4) y speed (real)
+After the specified number of frames, changes the x and y movement speeds of the object. NO_CHANGE can be used to preserve the original speeds.

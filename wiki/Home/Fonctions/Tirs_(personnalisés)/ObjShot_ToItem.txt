@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:25:20+02:00
+
+====== ObjShot ToItem ======
+
+Parameters:
+ 1) object ID (real)
+Turns the bullet into an item.

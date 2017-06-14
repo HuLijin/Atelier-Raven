@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:09:33+02:00
+
+====== GetTextureWidth ======
+
+Arguments:
+ 1) path (char)
+Returns the width (real) of the specified image file.

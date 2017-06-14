@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:13:27+02:00
+
+====== ObjText SetSyntacticAnalysis ======
+
+Arguments:
+ 1) object ID (real)
+ 2) bool
+Allows or prevents checking for the existence of bracket tags (such as line break or ruby text) within the text for this object.

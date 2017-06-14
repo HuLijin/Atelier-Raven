@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:40:53+02:00
+
+====== Echelle de priorités d'affichage par défaut ======
+
+[*] En dehors de la zone de la STG Frame : [0;20[ u ]80;100] l'origine du repère est en haut à gauche de la fenêtre de jeu.
+Dans la zone de la STG Frame : [20;80] l'origine du repère est en haut à gauche de la STG Frame.
+
+== Echelle par défaut ==
+* 0 : Minimum - ne rien afficher ici
+* **20 : Minimum de la STG Frame**
+* 30 : Player
+* 50 : Shots
+* 60 : Items et Bonus Spellcard
+* 70 : Barre de vie du boss/des ennemis
+* 75 : Timer du boss
+* 79 : Maximum de la caméra 2D
+* **80 : Maximum de la STG Frame**
+* 100 : Maximum et affichage du système

@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:10:53+02:00
+
+====== SetInvalidRenderPriorityA1 ======
+
+Arguments:
+ 1) invalid render priority (start) (real)
+ 2) invalid render priority (end) (real)
+Sets invalid render priority. Drawing within the specified range is disabled by this function.

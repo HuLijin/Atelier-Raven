@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T12:57:24+02:00
+
+====== SetCommonData ======
+
+Parameters:
+ 1) key (char)
+ 2) value (free)
+Maps the given key to the given value in common data. Uses the default common data area. The value can be returned by using GetCommonData with the corresponding key.

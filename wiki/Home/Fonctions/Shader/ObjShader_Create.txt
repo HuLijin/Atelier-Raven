@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T12:51:54+02:00
+
+====== ObjShader Create ======
+
+Returns: object ID (real)
+Creates a shader object.

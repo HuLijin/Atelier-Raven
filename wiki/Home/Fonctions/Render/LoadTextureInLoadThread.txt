@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:09:13+02:00
+
+====== LoadTextureInLoadThread ======
+
+Arguments:
+ 1) path (char)
+Loads specified image file as a texture in a separate thread.
+
+Using this function inside @Loading is the same as using LoadTexture.
+
+When using large images, the script will freeze until the image has finished loading.

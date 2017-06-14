@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:31:56+02:00
+
+====== ObjMove AddPatternA1 ======
+
+Arguments:
+ 1) object ID (real)
+ 2) frame (real)
+ 3) speed (real)
+ 4) angle (real)
+After the specified number of frames, changes the speed and angle of the object. NO_CHANGE can be used to preserve the original speed or angle.

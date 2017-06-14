@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-02T17:13:43+02:00
+
+====== Spécificités du script Package ======
+
+Il reste une petite chose dont vous devez être conscient. Quand vous utilisez //NotifyEvent// depuis un script  Stage/Plural/ect, pour notifier un script Package, la boucle @Event du package ne sera as notifiée ! Cela ne fonctionne pas non plus dans l'autre sens.
+Cependant, utiliser //NotifyEventAll// fonctionnera parfaitement bien. Il faudra simplement faire attention à ne pas donner les mêmes EV_USER  tous les scripts, souspein de les voir tous notifiés au même moment !
+
+Amusez-vous bien avec vos événements personnalisés !

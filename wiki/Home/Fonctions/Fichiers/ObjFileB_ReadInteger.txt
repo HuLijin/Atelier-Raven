@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:12:22+02:00
+
+====== ObjFileB ReadInteger ======
+
+== Input ==
+object ID (real)
+
+Reads a 4-byte integer from the file.

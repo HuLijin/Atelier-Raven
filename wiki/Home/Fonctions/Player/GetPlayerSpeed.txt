@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T08:41:39+02:00
+
+====== GetPlayerSpeed ======
+
+Returns: speed (real)
+Gets the player's speed in an array [unfocused, focused].

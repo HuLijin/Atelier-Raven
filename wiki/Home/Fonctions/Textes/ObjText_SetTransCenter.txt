@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:12:40+02:00
+
+====== ObjText SetTransCenter ======
+
+Arguments:
+ 1) object ID (real)
+ 2) x center coordinate (real)
+ 3) y center coordinate (real)
+Sets the given coordinates of the text object as its transformation center (rotation, zoom...).

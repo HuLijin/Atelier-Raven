@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:41:54+02:00
+
+====== SetCameraPerspectiveClip ======
+
+Arguments:
+ 1) near clipping distance (default 10)
+ 2) far clipping distance (default 2000)
+Objects that are further or nearer than the clipping distance will not be drawn.

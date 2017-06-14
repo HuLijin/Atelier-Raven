@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T12:14:13+02:00
+
+====== ObjSpell Create ======
+
+Returns: object ID (real)
+Creates a spell card object.

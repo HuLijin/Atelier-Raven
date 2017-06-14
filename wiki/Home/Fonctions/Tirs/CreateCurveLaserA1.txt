@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:15:40+02:00
+
+====== CreateCurveLaserA1 ======
+
+Arguments:
+	1) x-coordinate
+	2) y-coordinate
+	3) speed
+	4) angle
+	5) length
+	6) width
+	7) graphic
+	8) delay
+Return Value
+	Object ID
+Creates a laser that functions similarly to CreateLooseLaserA1, but can be altered with ObjMove_SetAngularVelocity to create a curving laser.
+
+__This function is heavy to process, so having many of them on-screen is not recommended.__

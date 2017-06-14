@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T15:46:52+02:00
+
+====== SetAutoDeleteObject ======
+
+Sets whether to delete all existing objects that were created in the script at its termination. If set to true, the script's objects will be deleted. 
+
+The default value is false.
+
+Parameters:
+1) enable (bool)
+

@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:32:42+02:00
+
+====== ObjMove AddPatternA4 ======
+
+Arguments:
+ 1) object ID (real)
+ 2) frame (real)
+ 3) speed (real)
+ 4) angle (real)
+ 5) acceleration (real)
+ 6) angular velocity (real)
+ 7) max speed (real)
+ 8) target ID (real)
+ 9) bullet graphic (real)
+Similar to ObjMove_AddPatternA3. The angle parameter is relative to the angle from the object to the target. For example, if GetPlayerObjectID is used as the target, an angle of 0 will cause the object to aim for the player. (Replaces SetShotDirectionType)

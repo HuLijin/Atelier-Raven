@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:01:55+02:00
+
+====== ObjSprite3D SetSourceDestRect ======
+
+Arguments:
+ 1) object ID (real)
+ 2) left (real)
+ 3) top (real)
+ 4) right (real)
+ 5) bottom (real)
+Sets the texture rectangle for the sprite, and maps the center of the rectangle to the destination coordinates (0, 0).

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:13:14+02:00
+
+====== ObjFileB ReadString ======
+
+== Input ==
+object ID (real)
+number of bytes to read (real)
+
+Given a specified number of bytes to read, reads a string.
+
+Note: due to a bug, this function will never return any characters outside of Shift-JIS.

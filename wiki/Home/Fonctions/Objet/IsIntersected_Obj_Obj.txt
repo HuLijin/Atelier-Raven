@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:17:29+02:00
+
+====== IsIntersected Obj Obj ======
+
+Arguments:
+	1) Object ID 1
+	2) Object ID 2
+Returns:
+	Boolean
+Checks if the given objects are colliding with each other. Returns true if there is a collision; if there is no collision, it returns false. This function is currently only available on bullet and laser objects.

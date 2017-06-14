@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:16:43+02:00
+
+====== ObjRender SetAngleX ======
+
+Arguments:
+ 1) object ID (real)
+ 2) x-angle (real)
+Sets the x-angle of the object.

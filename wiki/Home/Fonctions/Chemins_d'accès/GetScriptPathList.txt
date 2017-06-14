@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:50:10+02:00
+
+====== GetScriptPathList ======
+
+Parameters:
+ 1) file/folder path (char)
+ 2) script type (constant)
+Returns an array of available (selectable at selection screen) scripts of the specified type within the directory of the specified path. Script types are:
+
+TYPE_SCRIPT_ALL: All scripts
+TYPE_SCRIPT_PLAYER: Player scripts
+TYPE_SCRIPT_SINGLE: Single scripts
+TYPE_SCRIPT_PLURAL: Plural scripts
+TYPE_SCRIPT_STAGE: Stage scripts
+TYPE_SCRIPT_PACKAGE: Package scripts

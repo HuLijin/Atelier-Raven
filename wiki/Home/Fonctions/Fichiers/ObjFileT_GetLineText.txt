@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:07:21+02:00
+
+====== ObjFileT GetLineText ======
+
+== Input ==
+object ID (real)
+line number, starting from 1 (real)

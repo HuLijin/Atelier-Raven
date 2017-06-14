@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:28:08+02:00
+
+====== GetStgFrameLeft ======
+
+Returns the leftmost value of the STG frame.

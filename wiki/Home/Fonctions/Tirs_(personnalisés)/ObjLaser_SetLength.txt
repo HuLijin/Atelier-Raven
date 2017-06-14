@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:27:30+02:00
+
+====== ObjLaser SetLength ======
+
+Parameters:
+ 1) object ID (real)
+ 2) laser length (real)
+Sets the length of the laser object.

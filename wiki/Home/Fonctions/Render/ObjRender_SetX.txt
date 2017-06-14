@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:16:03+02:00
+
+====== ObjRender SetX ======
+
+Arguments:
+ 1) object ID (real)
+ 2) x-coordinate (real)
+Sets the x-coordinate of the object.

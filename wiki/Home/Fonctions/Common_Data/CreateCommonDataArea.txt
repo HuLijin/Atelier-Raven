@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T12:59:14+02:00
+
+====== CreateCommonDataArea ======
+
+Parameters:
+ 1) common data area name (char)
+Creates a common data area to organize common data together. A common data area "" (empty string) has been created by default, which is also used by the SetCommonData series.

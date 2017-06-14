@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-05T09:53:29+02:00
+
+====== CollectItemsByType ======
+
+Arguments:
+	1) type
+Makes all items of the specified type fly toward the player.

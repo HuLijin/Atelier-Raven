@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T11:47:03+02:00
+
+====== ObjPlayer AddIntersectionCircleA1 ======
+
+Parameters:
+ 1) object ID (real)
+ 2) hitbox x-coordinate (relative to player object) (real)
+ 3) hitbox y-coordinate (relative to player object) (real)
+ 4) hitbox radius (real)
+ 5) graze radius (real)
+Creates a hitbox of specified radius for collision detection of the player object. The graze area extends the specified radius around the hitbox (the true graze radius is the sum of the two). The hitbox will remain valid for every frame once created.

@@ -1,0 +1,172 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T16:31:24+02:00
+
+====== 2 The Danmakufu Header and Framework ======
+
+===== Header =====
+
+Below is a sample Danmakufu header. Please note that not every possible item may be included here. Check the ExRumia and sample scripts that come with ph3 for more examples.[[~/Notebooks/wiki/notebook.zim]]
+'''
+
+#TouhouDanmakufu[Plural]
+#Title["Title goes here"]
+#Text["Line one[r]Line 2"]
+#Background["./Background.dnh"]//assumes Background.dnh in same directory as script
+#Player["./player/KogasaOkuu/KogasaOkuuA.txt", "./player/KogasaOkuu/KogasaOkuuB.txt"]//Example only
+#ScriptVersion[3] 
+#System["./system/System.txt"]//ph3 will call default system if this system does not exist
+'''
+
+
+So I will begin with changes. Firstly, **all stings go in quotations**. Also, instead of hitting enter/return **to make a new line in the headers, you must use [r]**. **Note that text does NOT wrap**.
+
+Note that #Background is no longer used to create a scrolling background using an image. Now you use it and include a file path to a background SCRIPT, which will be explained later on. #System also links to a system script that is executed as soon as a script starts. Many people link to the default system in their scripts, so it is highly recommended that you do not fool around with the file path to the default system. **If you would like your scripts to have a custom system, it is better to include that system within the script rather than overwrite the default system.**
+
+Also **note that #BGM and #Image also exist**. **The former... really shouldn't be used since there are far better options in ph3**, though it does the same thing as in 0.12m. The latter performs the same function as in 0.12m.
+
+**Please use the following for the default settings.**
+
+'''
+#Player[DEFAULT]
+#Background["script/default_system/Default_Background_IceMountain.txt"]
+#System["./script/default_system/Default_System.txt"]
+#include"script/default_system/Default_ShotConst.txt"
+'''
+
+
+Note that you no longer have #include_function and #include_script. **It's all #include now.**
+
+
+===== Framework =====
+
+Now, the basic framework. Remember script_enemy_main? That's gone now. Same with @DrawLoop, @Background, and @DrawBottomObject. Yes. @DrawLoop is gone. You will use tasks to simulate that. **Loading textures/graphics is optional in ph3, although it prevents lag when the media in question are loaded** (if you do not load them, they will be loaded temporarily when you first use them, and if the file is large, that may cause unwanted lag when the graphic is first used). **Note that most people only use @Finalize if they load textures or other graphics in @Initialize. The standard is to control closing the script, death explosions, etc. in a separate TFinalize task.**
+
+**For TFinalize in Single scripts, you call it in @Initialize and start it with the following:**
+'''
+
+while(ObjEnemy_GetInfo(objBoss,INFO_LIFE)>0){yield;}
+yield;
+'''
+
+
+**This code assumes that the variable name for your registered OBJ_ENEMY_BOSS is objBoss. This will tell your script to not execute the rest of the code until the boss has no HP. After this, you should do something similar to the following.**
+
+'''
+DeleteShotAll(TYPE_ALL,TYPE_ITEM);
+Obj_Delete(objBoss);
+DeleteShotAll(TYPE_ALL,TYPE_IMMEDIATE);
+CloseScript(GetOwnScriptID());
+'''
+
+
+**Some people use SetAutoDeleteObject(true)**, which will automatically delete all of the sound, text, and render/prim/mesh/etc objects created in the single. **However, this prevents you from spawning items in the Single, so it is also possible to manually delete all of your graphics when the boss's life is <= 0. This assumes you are using tasks for your graphics.** Please note that most graphics are now Render or Primitive objects.
+
+**Reset2DCamera is recommended only if you use screen-shaking or have a static background that's not supposed to shift positions. If you have a background that doesn't need to fit into certain dimensions, don't use it.**
+
+**For TDrawLoop, you should do something similar to this if you are including the task in your single and aren't controlling the animation from an included script:**
+
+'''
+task TDrawLoop{
+  let BossImage = GetCurrentScriptDirectory~"./../img/RaikoSprite.png"; //Define path
+  ObjPrim_SetTexture(objBoss, BossImage);
+  ObjRender_SetScaleXYZ(objBoss, 1, 1, 1);
+  ObjSprite2D_SetSourceRect(objBoss, 0, 0, 80, 96);
+  ObjSprite2D_SetDestCenter(objBoss);
+}
+'''
+
+
+**This task assumes that you delete your boss object in TFinalize. You do not need to manually delete this graphic because it is linked to the boss obj and will be deleted automatically when the boss obj is deleted.** There will be more on the difference between Move and Render later on in this guide. Please consult the Table of Contents for faster navigation.
+
+Here is the same code but with the animation (not a complete animation; just a basic one):
+
+'''
+task TDrawLoop{
+  let BossImage = GetCurrentScriptDirectory~"./../img/RaikoSprite.png"; //Define path
+  let animframe = 1;
+  let bossAngle = ObjMove_GetAngle(objBoss);
+  let bossSpeed = ObjMove_GetSpeed(objBoss);
+  ObjPrim_SetTexture(objBoss, BossImage);
+  ObjRender_SetScaleXYZ(objBoss, 1, 1, 1);
+  ObjSprite2D_SetSourceRect(objBoss, 0, 0, 80, 96);
+  ObjSprite2D_SetDestCenter(objBoss);
+  while(!Obj_IsDeleted(objBoss)){
+    bossAngle = ObjMove_GetAngle(objBoss);
+    bossSpeed = ObjMove_GetSpeed(objBoss);
+    ObjSprite2D_SetSourceRect(objBoss, 0+floor(animframe/7)*80, 0, 80+floor(animframe/7)*80, 96);
+    if(bossSpeed>0){
+      ObjSprite2D_SetSourceRect(objBoss, 0, 96, 80, 192);//I am only using one graphic for movement
+    }
+    ObjSprite2D_SetDestCenter(objBoss);
+    animframe++;
+    if(animframe == 28){animframe = 0;} 
+    //Reset animframe after 28 frames. Change number depending on the number of sprites
+    yield;
+  }
+}
+'''
+
+
+**Note that if you want an animation, you must use a loop, preferably a while loop. Do not forget to yield.**
+
+
+===== @Event =====
+
+**ph3 also brings in @Loading and @Event. In @Loading, you can mass-load resources so that they aren't loaded when they are first used (which may cause unwanted momentary lag). Use this so that you can load resources in advance and use them in other scripts. Note that you can also load resources in @Initialize or in actuality, anywhere you want to load them, and that loading things in the #System file will allow all files to use them. In @Event, you control a large number of things, such as spell card bonuses, timers, boss HP, etc.**
+
+**For @Event in a Spell, you would use the following:**
+
+'''
+@Event{
+  alternative(GetEventType())
+    case(EV_REQUEST_LIFE){SetScriptResult(3000);}
+    case(EV_REQUEST_TIMER){SetScriptResult(60);}
+    case(EV_REQUEST_SPELL_SCORE){SetScriptResult(1000000);}
+}
+'''
+ 
+
+**Note that EV_REQUEST_### is a constant and you need to spell it correctly.** (Wise words from Ozzy: "Isn't that true for just about everything? XD")
+
+For @Event in player scripts, please go to the player script section.
+
+**There is also EV_USER, and things such as EV_USER+1, etc are possible since it is a constant. **You can use NotifyEvent(GetOwnScriptID(), EV_USER+1, args), NotifyEventAll(EV_USER+1, args), or variations on them to perform tasks such as item spawning.
+
+
+===== NotifyEventAll (Advanced) =====
+
+Note that since **NotifyEventAll is usually used for communication across scripts** and may be confusing to understand, it is best to tackle NotifyEventAll after you have had practice with ph3 and are comfortable with the basics. **If you plan to make a full game or a stage with enemy death effects and point items or even boss spell capture sound effects, however, NorifyEventAll is your friend.**
+
+**The following code is located in the stage's @Event:**
+
+'''
+alternative(GetEventType())
+  case(EV_USER_STAGE+666){//Boss Spell Capture
+    let capture = GetCurrentScriptDirectory~"./sound/capture.wav";
+    LoadSound(capture);
+    PlaySE(capture);
+  }
+  case(EV_PAUSE_ENTER){ObjSound_Stop(bgm);}
+  case(EV_PAUSE_LEAVE){ObjSound_Play(bgm);}
+'''
+
+
+The EV_PAUSE_ENTER and EV_PAUSE_LEAVE are built-in constants. **If you do not tell the BGM to stop, it won't stop when you enter the pause menu.**
+
+**Inside a single is the following:**
+
+'''
+if(ObjEnemyBossScene_GetInfo(objScene, INFO_PLAYER_SHOOTDOWN_COUNT) + ObjEnemyBossScene_GetInfo(objScene, INFO_PLAYER_SPELL_COUNT) == 0){){
+'''
+
+'''
+  AddScore(ObjEnemyBossScene_GetInfo(objScene,INFO_SPELL_SCORE));
+  NotifyEventAll(EV_USER_STAGE+666, 0); 
+}
+'''
+
+
+This code is noteworthy for two reasons; **Firstly, it awards the SpellCard Bonus (which is NOT DONE BY DEFAULT in ph3). Secondly, it calls NotifyEventAll. This call from the plural is sent to every open script being used by Danmakufu.** It will eventually hit the stage, and the EV_USER_STAGE+666 will trigger the Spell Capture sound effect to be loaded and played. **Since the single will cut off the SFX when it is closed, this is a technique that allows for things such as explosion graphics, sound effects, and more to be executed in a stage, where they won't get cut off.** **It can be used for virtually everything that requires immediate action by another script, and is extremely useful when circumventing the auto deletion of objects.** The 0 passed to the @Event is an arbitrary value in this case, but you can pass an array into the NotifyEventAll and use let arg = GetEventArgument(0); to access the argument passed along.
+
+**EV_USER_STAGE and NotifyEventAll is the preferred method of spawning items, since SetAutoDeleteObject deletes items when they are spawned in a single.**

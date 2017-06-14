@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:12:54+02:00
+
+====== ObjFileB ReadDouble ======
+
+== Input ==
+object ID (real)
+
+Reads a 8-byte floating point number from the file.

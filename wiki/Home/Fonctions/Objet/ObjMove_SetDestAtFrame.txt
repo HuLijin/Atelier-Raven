@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:31:22+02:00
+
+====== ObjMove SetDestAtFrame ======
+
+Arguments:
+ 1) object ID (real)
+ 2) x coordinate (real)
+ 3) y coordinate (real)
+ 4) frames (real)
+Moves the object towards the given coordinates in the number of frames specified.

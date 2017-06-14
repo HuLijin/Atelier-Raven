@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:19:23+02:00
+
+====== ObjRender GetAngleY ======
+
+Arguments:
+ 1) object ID (real)
+Returns the y-angle of the object.

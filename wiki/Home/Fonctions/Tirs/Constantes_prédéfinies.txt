@@ -1,0 +1,88 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:45:14+02:00
+
+====== Constantes prédéfinies ======
+
+script/default_system/Default_ShotConst.txt is used by default, provided by Mr. M's(?) bullet graphic supply site. (Please refer to license.txt)
+
+The default bullets are shown below:
+
+("''RED''" may be replaced with ''RED'', ORANGE, YELLOW, GREEN, SKY, BLUE, PURPLE, or WHITE)
+
+'''
+DS_BALL_SS_RED            |   Super Small Bullets       | 
+_________________________________________________________
+
+DS_BALL_S_RED             |   Small Bullets             |
+_________________________________________________________
+
+DS_BALL_BS_RED            |   Bordered Bullets          |
+_________________________________________________________
+
+DS_BALL_M_RED             |   Medium Bullets            |
+_________________________________________________________
+
+DS_NEEDLE_RED             |   Needle Bullets            |
+_________________________________________________________
+
+DS_RICE_S_RED             |   Rice Grain Bullets        |
+_________________________________________________________
+
+DS_ICE_RED                |   Ice Shard Bullets         |
+_________________________________________________________
+
+DS_MISSILE_RED            |   Suppository Bullets       |
+_________________________________________________________
+
+DS_RICE_M_RED             |   Oval Bullets              |
+_________________________________________________________
+
+DS_KUNAI_RED              |   Kunai Bullets             |
+_________________________________________________________
+
+DS_SCALE_RED              |   Arrow Bullets             |
+_________________________________________________________
+
+DS_BILL_RED               |   Amulet Bullets            |
+_________________________________________________________
+
+DS_COIN_RED               |   Coin Bullets              |
+_________________________________________________________
+
+DS_BUTTERFLY_RED          |   Butterfly Bullets         |
+_________________________________________________________
+
+DS_LIGHT_RED              |   Glowing Bullets           |
+_________________________________________________________
+
+DS_STAR_S_RED             |   Small Star Bullets        |
+_________________________________________________________
+
+DS_STAR_M_RED             |   Medium Star Bullets       |
+_________________________________________________________
+
+DS_KNIFE_YOUMU_RED        |   Small Sword Bullets       |
+_________________________________________________________
+
+DS_KNIFE_KOUMA_RED        |   Knife Bullets             |
+_________________________________________________________
+
+DS_BEAM_RED               |   Straight Laser            |
+_________________________________________________________
+
+DS_FIRE_RED               |   Flame Bullets             |
+(Only Red or Blue)        |                             |
+_________________________________________________________
+
+DS_BALL_L_RED             |   Large Bubble Bullets      |
+_________________________________________________________
+
+DS_TENGU                  |   Wind Bullets              |
+(Color is not changeable) |                             |
+_________________________________________________________
+
+DS_JUDGMENT               |   Similar to Shikieiki's    |
+(Color is not changeable) |    EX attack (TH09)         |
+_________________________________________________________
+'''

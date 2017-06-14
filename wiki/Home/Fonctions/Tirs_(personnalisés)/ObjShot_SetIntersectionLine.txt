@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:26:20+02:00
+
+====== ObjShot SetIntersectionLine ======
+
+Parameters:
+ 1) object ID (real)
+ 2) start x-coordinate (real)
+ 3) start y-coordinate (real)
+ 4) end x-coordinate (real)
+ 5) end y-coordinate (real)
+ 6) hitbox line width (real)
+Creates a line segment hitbox between the specified coordinates for collision detection of the shot object. In order to maintain the hitbox, it must be set every frame. There can be multiple hitboxes set for one shot object.

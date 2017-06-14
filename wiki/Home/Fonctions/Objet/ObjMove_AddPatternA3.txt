@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:32:22+02:00
+
+====== ObjMove AddPatternA3 ======
+
+Arguments:
+ 1) object ID (real)
+ 2) frame (real)
+ 3) speed (real)
+ 4) angle (real)
+ 5) acceleration (real)
+ 6) angular velocity (real)
+ 7) max speed (real)
+ 8) bullet graphic (real)
+Similar to ObjMove_AddPatternA2. Changes the bullet graphic. (Similar to SetShotDataA, but with acceleration and angular velocity swapped)

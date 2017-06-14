@@ -1,0 +1,82 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T17:31:15+02:00
+
+====== 19 ShotSheets ======
+
+In ph3, you are no longer limited to 255 shots! Hooray! With pre23, you can also ADD_ARGB your bullets, so no more black backgrounds needed! Shotsheets are a massive step up from in 0.12m, and you are no longer restricted by size of the sheet. Also, did I mention that ph3's default bullets are much prettier than the 0.12m ones? Well, they are.
+
+For information on default graphics, see the following: How to Write Scripts#Bullet Graphics (Default Shotsheet)
+
+If you want to load a shot constant sheet such as the default shot sheet, please use this:
+
+
+  #include"script/default_system/Default_ShotConst.txt"
+
+This particular code uses absolute pathing to the default shot sheet. It is highly recommended that you store a shot sheet within your script and link to that just in case someone has removed or renamed their default_system folder. By #including a constant sheet, you can address bullets as DS_BALL_S_RED and the like instead of using numerical IDs for the bullets.
+
+===== Making Shotsheets (Advanced) =====
+
+To make shot sheets, you do the following:
+
+
+  #UserShotData
+ 
+ shot_image = "<insert path here>.png"
+ delay_rect = (L, T, R, B)
+
+L, T, R, and B are the coordinates stating the rect. delay_rect is not required.
+
+Here is a sample shot definition. (taken from How To Write Scripts Tutorial)
+
+
+  ShotData {
+   id = 1
+   rect = (0,0,32,32)	
+   render = ALPHA
+   delay_color = (255,128,0)
+   angular_velocity = 3
+   fixed_angle = true
+   collision = 5	
+ }
+
+id must be unique for every bullet.
+
+rect states the rect coordinates of the bullet graphic, Left Top Right Bottom.
+
+render can be ALPHA, ADD, ADD_ARGB, and even MULTIPLY and SUBTRACT in pre23. You will probably stick with ALPHA, ADD (for black backgrounds) and ADD_ARGB.
+
+delay_color is (255, 255, 255) by default. The arguments are Red, Green, and Blue
+
+angular_velocity is 0 by default. It is basically how fast the graphic spins.
+
+fixed_angle states whether the graphic will be static. In other words, if you set it to true for a heart bullet, no matter which direction it is going in, it will always be a heart with the point facing downwards.
+
+collision is the hitbox radius. The default value is based on the size of the bullet graphic. It is recommend that you set this for bullets with a large aura.
+
+You may put these in any order and may put them on the same line (recommended) like this:
+
+
+  ShotData{ id=1 rect=(0,0,16,14) render=ALPHA angular_velocity = 0 delay_color= (128,128,128) } //Gray
+ ShotData{ id=2 rect=(16,0,32,14) render=ALPHA angular_velocity = 0 delay_color= (255,64,64) } //Dark Red
+ ShotData{ id=3 rect=(32,0,48,14) render=ALPHA angular_velocity = 0 delay_color= (255,64,64) } //Red
+
+In order to animate bullets, you just set multiple rects like this: (taken from How To Write Scripts Tutorial)
+
+
+  ShotData{ id=371 render=ADD angular_velocity = 0 delay_color= (255,64,64) 
+   AnimationData{
+	 animation_data=(4,256,324,288,356) 
+	 animation_data=(4,288,324,320,356) 	
+	 animation_data=(4,320,324,352,356) 	
+	 animation_data=(4,352,324,384,356) 	
+   }
+ }  
+
+The first argument in animation_data is how many frames the bullet will stay in that graphic for.
+
+Note the following closely if you are making a shot sheet: If you want your bullets to spin, you MUST have an odd width for the bullet and an odd height for the bullet or the bullet will shake when spinning. There is no solution except to change the rects on the shot sheet, changing hitbox location, or to change the graphic itself (i.e. change a bullet with an even width/height to an odd width/height, etc.), which will change the graphic itself.
+
+The reason for this may lie in a center pixel being needed to rotate graphics in Danmakufu. You can go for either the slightly-off hitbox or the different graphic. First is gameplay, latter is aesthetics. If you're using ZUN's bullets, note that you WILL have to choose between these two.
+
+//For more information, see the following: How to Write Scripts#Adding Custom Bullet Graphics (Custom Shotsheets)//

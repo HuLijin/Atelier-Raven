@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T17:26:25+02:00
+
+====== 8 Primitive Objects (Advanced) ======
+
+Primitive Objects are the Effect Objects of ph3. However, with the introduction of 2D sprites, most of the uses of primitive objects suddenly aren't there anymore. If you are aiming to do crazy graphical things involving things with multiple vertices (such as circular life bars) or other things involving selecting portions of graphics for individual manipulation, you will have to use primitive object functions.
+
+The basic function to create a primitive object is ObjPrim_Create, which you will use to create your 2D Sprites, 3D Sprites, Sprite Lists, and Primitive Objects. See Render Object functions for more information on 2D sprites.
+
+There are three primitive types: TriangleList, TriangleStrip, and TriangleFan. The official description of how to use them can be found [here]. If you are trying to implement these and are having trouble, those on the Q&A thread may be able to help you.
+
+Most of the primitive object commands function the same way as in 0.12m. Note that ObjPrim_SetVertexPosition, the new XY vertex function, now requires a Z coordinate. Place 0 or 1 if you don't need it. Also, note that color and alpha can no longer be controlled by the same function, and that you must use two separate functions.

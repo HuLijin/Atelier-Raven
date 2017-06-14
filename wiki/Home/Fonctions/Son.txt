@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:38:42+02:00
+
+====== Son ======
+
+[[+LoadSound]] 
+[[+RemoveSound]] 
+[[+PlayBGM]] 
+[[+PlaySE]] 
+[[+StopSound]] 
+
+[[+ObjSound_Create]] 
+[[+ObjSound_Load]] 
+[[+ObjSound_Play]] 
+[[+ObjSound_Stop]] 
+[[+ObjSound_SetVolumeRate]] 
+[[+ObjSound_SetPanRate]] 
+[[+ObjSound_SetFade]] 
+[[+ObjSound_SetLoopEnable]] 
+[[+ObjSound_SetLoopTime]] 
+[[+ObjSound_SetLoopSampleCount]] 
+[[+ObjSound_SetRestartEnable]] 
+[[+ObjSound_SetSoundDivision]] 
+[[+ObjSound_IsPlaying]] 
+[[+ObjSound_GetVolumeRate]] 

@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:10:54+02:00
+
+====== ObjText SetFontSize ======
+
+Arguments:
+ 1) object ID (real)
+ 2) size (real)
+Sets the size of the font for the text object.

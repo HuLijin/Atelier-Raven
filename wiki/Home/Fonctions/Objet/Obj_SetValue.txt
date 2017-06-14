@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:16:42+02:00
+
+====== Obj SetValue ======
+
+Arguments:
+ 1) object ID (real)
+ 2) key (char)
+ 3) value (arbitrary type)
+For the given object, maps the given key to the given value. 
+The value can be returned by using Obj_GetValue with the corresponding key.

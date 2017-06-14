@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T15:44:42+02:00
+
+====== GetScriptArgument ======
+
+Input:
+1) argument index (real)
+
+Output:
+1) value of the specified argument
+
+The value of the specified argument is previously set by [[SetScriptArgument]] before the script was started.

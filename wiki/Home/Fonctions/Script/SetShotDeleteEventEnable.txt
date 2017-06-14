@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:21:59+02:00
+
+====== SetShotDeleteEventEnable ======
+
+Arguments:
+ 1) event type (real)
+  EV_DELETE_SHOT_IMMEDIATE: event will delete the shot immediately
+  EV_DELETE_SHOT_FADE: event will fade out the shot
+ 2) whether to allow this event to be registered (boolean)
+Sets whether the bullet deletion event is allowed to occur.
+
+Default is false for both event types.

@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:12:09+02:00
+
+====== ObjText SetMaxHeight ======
+
+Arguments:
+ 1) object ID (real)
+ 2) height (real)
+Sets the maximum height of the text object.
+
+Any part of the text exceeding this height will not be drawn.

@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:10:54+02:00
+
+====== ObjFileB SetByteOrder ======
+
+== Input ==
+object ID (real)
+byte Order (real)
+
+Sets Byte Order of file. Options are:
+
+ENDIAN_LITTLE: Little endian (default)
+ENDIAN_BIG: Big endian

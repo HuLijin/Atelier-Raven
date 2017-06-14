@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:00:40+02:00
+
+====== Tirs ======
+
+===== Contenu =====
+Fiche - [[+Constantes prédéfinies]]
+Fiche - [[+Shot data]]
+
+== Création de tirs ==
+[[+CreateShotA1]] 	//(base)//
+[[+CreateShotA2]] 	//(A1 + accélération et vitesse limite)//
+[[+CreateShotOA1]] 	//(A1, généré à l'emplacement d'un autre objet)//
+[[+CreateShotB1]] 	//(base avec vitesses xy indépendantes)//
+[[+CreateShotB2]] 	//(B1 + accélération et vitesse limite)//
+[[+CreateShotOB1]] 	//(B1, généré à l'emplacement d'un autre objet)//
+
+== Création de lasers ==
+[[+CreateLooseLaserA1]] 		//(tir A1 + longueur = bullet étiré)//
+[[+CreateStraightLaserA1]] 	//(véritable laser)//
+[[+CreateCurveLaserA1]] 		//(laser A1 + sensible à ObjMove_SetAngularVelocity)//
+
+== Récupération d'information ==
+[[+GetShotIdInCircleA1]] 
+[[+GetShotIdInCircleA2]] 
+[[+GetShotCount]] 
+[[+GetShotDataInfoA1]] 
+
+== Manipulation de tirs ==
+[[+DeleteShotAll]] 
+[[+DeleteShotInCircle]] 
+[[+SetShotIntersectionCircle]] 
+[[+SetShotIntersectionLine]] 
+
+== Autre ==
+[[+StartShotScript]] 
+[[+SetShotAutoDeleteClip]] 

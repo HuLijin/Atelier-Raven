@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:15:00+02:00
+
+====== CreateLooseLaserA1 ======
+
+Arguments:
+	1) x-coordinate
+	2) y-coordinate
+	3) speed
+	4) angle
+	5) length
+	6) width
+	7) graphic
+	8) delay
+Return Value
+	Object ID
+Creates a laser that functions much like a bullet from CreateShotA1, but can be defined with a size. This could also be used to create larger bullets.

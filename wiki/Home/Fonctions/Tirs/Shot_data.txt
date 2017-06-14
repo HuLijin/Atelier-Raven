@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:45:35+02:00
+
+====== Shot data ======
+
+Sometimes, you want to use bullet graphics that are not defined by default. In that case, you can use //LoadEnemyShotData// (for enemies) or //LoadPlayerShotData// (for players) to define shotsheets of your own. You can also make animated bullets.
+
+This are the header lines that must be put at the top of each shot definition script.
+
+'''
+#UserShotData
+shot_image = "path/of/the/imagefile.png"
+delay_rect = (leftBound, topBound, rightBound, bottomBound)
+'''
+
+
+== How to define a bullet: ==
+
+'''
+ShotData {
+	id = 1				// ID. Must be unique for each bullet defined.
+	rect = (0,0,32,32)		// Rect coordinates of the bullet graphic. In order of parameters: Left, Top, Right, Bottom.
+	render = ALPHA			// Sets the render state of each bullet. This can be set to ALPHA (regular) or ADD (shiny).
+					// Default is ALPHA.
+	delay_color = (255,128,0)	// This sets the color of the cloud when the bullet is delayed. In order of parameters: Red, Green, Blue
+					// Default is (255, 255, 255)
+	angular_velocity = 3		// This defines how fast the bullet graphic will rotate.
+					// Default is 0.
+	fixed_angle = true		// If this is set to true, the bullet will be drawn as shown in the original shotsheet graphic.
+					// Default is false.
+	collision = 5			// This sets the hitbox radius of the bullet.
+					// The default value depends on the size of the bullet graphic.
+}
+'''
+
+
+== How to define an animated bullet: ==
+
+'''
+ShotData {
+	id = 2
+	render = ADD
+	delay_color = (255,128,255)
+	AnimationData {					// Begin the animation of the bullet.
+		animation_data = (16,0,0,12,12)		// For the first 16 frames, the coordinates will be (0, 0, 12, 12)
+		animation_data = (8,12,0,24,12)		// After that, the coordinates will be (12, 0, 24, 12) for 8 frames
+		animation_data = (24,12,12,24,24)	// Then, the coordinates will be (12, 12, 24, 24) for the next 24 frames
+	}						// The animation starts over.
+}
+'''

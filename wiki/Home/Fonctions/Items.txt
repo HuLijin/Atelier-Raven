@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:32:50+02:00
+
+====== Items ======
+
+Fiche : [[+Item data]]
+Fiche : [[+Script d'item custom]]
+
+== Création d'items de base ==
+[[+CreateItemA1]] 
+[[+CreateItemA2]] 
+
+== Création d'items personnalisés ==
+[[+CreateItemU1]] 
+[[+CreateItemU2]] 
+
+== Collection d'items ==
+[[+CollectAllItems]] 
+[[+CollectItemsByType]] 
+[[+CollectItemsInCircle]] 
+[[+CancelCollectItems]] 
+
+== Manipulation d'items (personnalisés) ==
+L'usage de ces fonctions devrait se limiter aux scripts d'items.
+[[+ObjItem_SetItemID]] 
+[[+ObjItem_SetRenderScoreEnable]] 
+[[+ObjItem_SetAutoCollectEnable]] 
+[[+ObjItem_SetDefinedMovePatternA1]] 
+[[+ObjItem_GetInfo]] 
+
+== Autre ==
+[[+StartItemScript]] 
+[[+SetDefaultBonusItemEnable]] 
+[[+LoadItemData]] 
+[[+ReloadItemData]] 

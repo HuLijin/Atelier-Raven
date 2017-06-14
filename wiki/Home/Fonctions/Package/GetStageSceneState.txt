@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:39:49+02:00
+
+====== GetStageSceneState ======
+
+Return value:
+ STAGE_STATE_FINISHED (real): Whether the stage is finished or not
+Can be used to return status information about the currently running stage.

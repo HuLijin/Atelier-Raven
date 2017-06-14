@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-05T16:18:14+02:00
+
+====== add ======
+
+Arguments:
+ 1) value 1
+ 2) value 2
+Returns the sum of two values.
+
+Note: there is a quirk with using add (or the associated operator +) or subtract (-) with strings. Since arrays can be added element-by-element, adding two strings of equal length actually returns a string with the character codes from each string added for each character. The result is somehow incompatible with ordinary strings, but it can be used with strings by calling ToString on it.

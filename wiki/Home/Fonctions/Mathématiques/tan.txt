@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-05T16:21:04+02:00
+
+====== tan ======
+
+Arguments:
+ 1) angle
+Returns the tangent of the angle. Tangent is the slope of the line created by the angle (x/y).

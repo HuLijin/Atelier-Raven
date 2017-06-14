@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:42:49+02:00
+
+====== SaveReplay ======
+
+Arguments:
+ 1) Index of the replay file (real)
+Saves a replay to the specified replay index.

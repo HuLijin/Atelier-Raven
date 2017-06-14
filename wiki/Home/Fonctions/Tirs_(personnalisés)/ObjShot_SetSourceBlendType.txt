@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:23:59+02:00
+
+====== ObjShot SetSourceBlendType ======
+
+Parameters:
+ 1) object ID (real)
+ 2) blend type (constant)
+Gives the shot object's delay graphic the specified blend type. Options are:
+
+BLEND_ALPHA: Alpha blend
+BLEND_ADD_RGB: Additive blend
+BLEND_ADD_ARGB: Additive blend with alpha channel
+BLEND_MULTIPLY: Multiplicative blend
+BLEND_SUBTRACT: Subtractive blend
+BLEND_INV_DESTRGB: Inverting blend

@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:27:39+02:00
+
+====== GetShotRenderPriorityI ======
+
+Returns the render priority for shots (0-100) (default is 50).

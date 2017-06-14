@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T08:44:11+02:00
+
+====== SetForbidPlayerShot ======
+
+Arguments:
+ 1) bool
+When set to true, the player cannot use normal shots.

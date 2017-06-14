@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:25:57+02:00
+
+====== ObjShot SetIntersectionCircleA1 ======
+
+Parameters:
+ 1) object ID (real)
+ 2) hitbox radius (real)
+Creates a hitbox of specified radius for collision detection of the shot object. In order to maintain the hitbox, it must be set every frame. There can be multiple hitboxes set for one shot object.

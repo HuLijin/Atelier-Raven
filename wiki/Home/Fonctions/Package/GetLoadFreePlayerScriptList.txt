@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:41:09+02:00
+
+====== GetLoadFreePlayerScriptList ======
+
+Loads a list of the player scripts available in the /script/player/ folder.

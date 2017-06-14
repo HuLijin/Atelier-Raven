@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:39:54+02:00
+
+====== SetCameraRoll ======
+
+Arguments:
+ 1) roll angle of the camera (real)
+Sets the rotational Roll angle of the camera.

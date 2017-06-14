@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:43:50+02:00
+
+====== ObjSound IsPlaying ======
+
+Arguments:
+ 1) object ID (real)
+
+Returns: true/false (bool)
+Returns true if the sound file is playing.

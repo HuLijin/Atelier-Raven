@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:06:02+02:00
+
+====== ObjFile Store ======
+
+Sauvegarde le fichier. Il faut que le fichier soit ouvert en mode écriture (avec ObjFile_OpenNW).
+Doit être appelé après avoir écrit  des données.
+
+== Input ==
+object ID (real)
+

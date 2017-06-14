@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:44:49+02:00
+
+====== Enemy ======
+
+[[+GetEnemyBossSceneObjectID]] 
+[[+GetEnemyBossObjectID]] 
+[[+GetAllEnemyID]] 
+[[+GetIntersectionRegistedEnemyID]] 
+[[+GetAllEnemyIntersectionPosition]] 
+[[+GetEnemyIntersectionPosition]] 
+[[+GetEnemyIntersectionPositionByIdA1]] 
+[[+GetEnemyIntersectionPositionByIdA2]] 
+[[+LoadEnemyShotData]] 
+[[+ReloadEnemyShotData]]
+
+[[+ObjEnemy_Create]] 
+[[+ObjEnemy_Regist]] 
+[[+ObjEnemy_GetInfo]] 
+[[+ObjEnemy_SetLife]] 
+[[+ObjEnemy_AddLife]] 
+[[+ObjEnemy_SetDamageRate]] 
+[[+ObjEnemy_SetIntersectionCircleToShot]] 
+[[+ObjEnemy_SetIntersectionCircleToPlayer]]
+
+[[+ObjEnemyBossScene_Create]] 
+[[+ObjEnemyBossScene_Regist]] 
+[[+ObjEnemyBossScene_Add]] 
+[[+ObjEnemyBossScene_LoadInThread]] 
+[[+ObjEnemyBossScene_GetInfo]] 
+[[+ObjEnemyBossScene_SetSpellTimer]] 
+[[+ObjEnemyBossScene_StartSpell]] 

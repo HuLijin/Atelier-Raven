@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:15:44+02:00
+
+====== Caméras 2D et 3D ======
+
+===== Contenu =====
+
+== Caméra 2D ==
+[[+Set2DCameraFocusX]] 	//pas d'équivalent//
+[[+Set2DCameraFocusY]] 	//pas d'équivalent//
+//pas d'équivalent//			[[+Get2DCameraX]] 
+//pas d'équivalent//			[[+Get2DCameraY]] 
+[[+Set2DCameraAngleZ]] 	[[+Get2DCameraAngleZ]] 
+[[+Set2DCameraRatio]] 		[[+Get2DCameraRatio]] 
+[[+Set2DCameraRatioX]] 		[[+Get2DCameraRatioX]] 
+[[+Set2DCameraRatioY]] 		[[+Get2DCameraRatioY]] 
+[[+Reset2DCamera]] 
+
+== Caméra 3D ==
+[[+SetCameraFocusX]] 			[[+GetCameraFocusX]] 
+[[+SetCameraFocusY]]			[[+GetCameraFocusY]] 
+[[+SetCameraFocusZ]]			[[+GetCameraFocusZ]]
+//pas d'équivalent//				[[+GetCameraX]] 
+//pas d'équivalent//				[[+GetCameraY]] 
+//pas d'équivalent//				[[+GetCameraZ]] 
+[[+SetCameraFocusXYZ]] 		//pas d'équivalent//
+[[+SetCameraRadius]] 			[[+GetCameraRadius]] 
+[[+SetCameraAzimuthAngle]] 	[[+GetCameraAzimuthAngle]] 
+[[+SetCameraElevationAngle]]	[[+GetCameraElevationAngle]] 
+[[+SetCameraYaw]]				[[+GetCameraYaw]] 
+[[+SetCameraPitch]]				[[+GetCameraPitch]] 
+[[+SetCameraRoll]]				[[+GetCameraRoll]] 
+[[+SetCameraPerspectiveClip]] 

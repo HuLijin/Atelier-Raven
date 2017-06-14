@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:28:52+02:00
+
+====== GetScreenWidth ======
+
+Returns the width of Danmakufu's drawing space.
+

@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:36:50+02:00
+
+====== Set2DCameraRatio ======
+
+Arguments:
+ 1) zoom (real)
+Sets the zoom of the camera (centered on the focus point).
+
+This value is usually 1.

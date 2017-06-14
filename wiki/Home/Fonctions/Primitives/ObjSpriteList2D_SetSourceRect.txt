@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:59:33+02:00
+
+====== ObjSpriteList2D SetSourceRect ======
+
+Arguments:
+ 1) object ID (real)
+ 2) texture coordinate (left) (real)
+ 3) texture coordinate (top) (real)
+ 4) texture coordinate (right) (real)
+ 5) texture coordinate (bottom) (real)
+Sets the texture rectangle for the sprite. This is the rectangle on the original texture from which the sprite will be drawn.

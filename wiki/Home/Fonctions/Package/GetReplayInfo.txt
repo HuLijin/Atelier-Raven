@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:42:29+02:00
+
+====== GetReplayInfo ======
+
+Arguments:
+ 1) The replay index (must be less than GetValidReplayIndices)
+ 2) Various information
+	  REPLAY_FILE_PATH               (char): Replay's file path
+	  REPLAY_DATE_TIME               (char): The date and time at which the replay was saved
+	  REPLAY_USER_NAME               (char): The player's name
+	  REPLAY_TOTAL_SCORE             (real): The final score
+	  REPLAY_FPS_AVERAGE             (real): Average framerate
+	  REPLAY_PLAYER_NAME             (char): The (abbreviated) name of the player script used
+	  REPLAY_STAGE_INDEX_LIST        (real, array): List of stage indices that the replay used
+	  REPLAY_STAGE_START_SCORE_LIST  (real, array): List of score indices at the start of each stage 
+												 (the order of the stage indices is from REPLAY_STAGE_INDEX_LIST)
+	  REPLAY_STAGE_LAST_SCORE_LIST   (real, array): List of score indices at the end of each stage 
+												 (the order of the stage indices is from REPLAY_STAGE_INDEX_LIST)
+	  REPLAY_COMMENT                 (char): A short comment set arbitrarily using SetReplayInfo 
+Return value:
+	  Various replay information
+Returns the replay information requested.

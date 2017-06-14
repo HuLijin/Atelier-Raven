@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:48:25+02:00
+
+====== GetEnemyBossObjectID ======
+
+Returns: ID (real, array)
+Gets the ID of the boss present on the screen, and returns it in an array.

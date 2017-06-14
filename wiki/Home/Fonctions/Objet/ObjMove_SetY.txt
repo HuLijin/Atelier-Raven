@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:29:48+02:00
+
+====== ObjMove SetY ======
+
+Arguments:
+ 1) object ID (real)
+ 2) y coordinate (real)
+Sets the y coordinate of the specified object.

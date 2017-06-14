@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:39:08+02:00
+
+====== SetStageMainScript ======
+
+Arguments:
+ 1) path to the stage (path)
+Defines the stage to be started next.

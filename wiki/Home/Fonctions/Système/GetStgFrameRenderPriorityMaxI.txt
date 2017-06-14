@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:27:09+02:00
+
+====== GetStgFrameRenderPriorityMaxI ======
+
+Returns the highest render priority for the STG frame (0-100) (default is 80).

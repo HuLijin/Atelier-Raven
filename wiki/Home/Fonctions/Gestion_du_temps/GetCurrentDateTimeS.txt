@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:10:12+02:00
+
+====== GetCurrentDateTimeS ======
+
+Returns a string containing the current date and time. For example, if the current date is 2012/09/16 12:34:56, then "20120916123456" will be returned. If you wanted to convert it to a number, you may use the atoi function; for example,
+
+let year = atoi(GetCurrentDateTimeS[0..4]);

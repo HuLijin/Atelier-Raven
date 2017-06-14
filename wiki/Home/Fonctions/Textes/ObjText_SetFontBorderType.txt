@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:11:40+02:00
+
+====== ObjText SetFontBorderType ======
+
+Arguments:
+ 1) object ID (real)
+ 2) border type (real)
+Sets the type of the font border among the following:
+
+BORDER_NONE: no border
+BORDER_FULL: full border
+BORDER_SHADOW: shadow at the bottom right of the text

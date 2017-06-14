@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T12:52:53+02:00
+
+====== ObjShader SetVector ======
+
+Arguments:
+ 1) object ID (real)
+ 2) parameter ID (char)
+ 3) float4 x (real)
+ 4) float4 y (real)
+ 5) float4 z (real)
+ 6) float4 w (real)

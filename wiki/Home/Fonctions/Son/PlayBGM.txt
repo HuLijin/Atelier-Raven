@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:39:38+02:00
+
+====== PlayBGM ======
+
+Arguments:
+ 1) path (char)
+ 2) loop start second (real)
+ 3) loop end second (real)
+Plays the specified sound file as a looping BGM. You can be more precise by using decimals (for instance, if you want to loop from 2.5 seconds on, you can type 2.5).

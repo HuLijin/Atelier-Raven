@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:56:30+02:00
+
+====== ObjPrim SetVertexUVT ======
+
+Arguments:
+ 1) object ID (real)
+ 2) vertex index (real)
+ 3) texture x-coordinate (real)
+ 4) texture y-coordinate (real)
+Sets the UV-coordinates for the specified vertex. You must set the object's texture using ObjPrim_SetTexture beforehand.

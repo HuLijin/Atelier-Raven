@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:03:04+02:00
+
+====== ObjMesh Load ======
+
+Arguments:
+ 1) object ID (real)
+ 2) path of the 3D object file (char)
+Loads a 3D mesh file. The file must be either .mqo (Metasequoia) or .elem (Elfreina) (both are Japanese softwares).

@@ -1,0 +1,42 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:18:40+02:00
+
+====== Tirs (personnalisés) ======
+
+[[+ObjShot_Create]] 
+[[+ObjShot_Regist]] 
+
+[[+ObjShot_SetAutoDelete]] 
+[[+ObjShot_FadeDelete]] 
+[[+ObjShot_SetDeleteFrame]] 
+[[+ObjShot_SetDelay]] 
+[[+ObjShot_SetSpellResist]] 
+[[+ObjShot_SetGraphic]] 
+[[+ObjShot_SetSourceBlendType]] 
+[[+ObjShot_SetDamage]] 
+[[+ObjShot_SetPenetration]] 
+[[+ObjShot_SetEraseShot]] 
+[[+ObjShot_SetSpellFactor]] 
+[[+ObjShot_ToItem]] 
+[[+ObjShot_AddShotA1]] 
+[[+ObjShot_AddShotA2]] 
+[[+ObjShot_SetIntersectionCircleA1]] 
+[[+ObjShot_SetIntersectionCircleA2]] 
+[[+ObjShot_SetIntersectionLine]] 
+[[+ObjShot_SetIntersectionEnable]] 
+[[+ObjShot_SetItemChange]] 
+[[+ObjShot_IsSpellResist]] 
+[[+ObjShot_GetImageID]] 
+
+[[+ObjLaser_SetLength]] 
+[[+ObjLaser_SetRenderWidth]] 
+[[+ObjLaser_SetIntersectionWidth]] 
+[[+ObjLaser_SetGrazeInvalidFrame]] 
+[[+ObjLaser_SetInvalidLength]] 
+[[+ObjLaser_GetLength]] 
+
+[[+ObjStLaser_SetAngle]] 
+[[+ObjStLaser_GetAngle]] 
+[[+ObjStLaser_SetSource]] 
+[[+ObjCrLaser_SetTipDecrement]] 

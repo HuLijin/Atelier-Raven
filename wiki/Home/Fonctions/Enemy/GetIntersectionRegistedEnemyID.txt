@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:48:58+02:00
+
+====== GetIntersectionRegistedEnemyID ======
+
+Returns: ID (real, array)
+Gets the Object ID of all enemies with a registered hitbox to player shots (via ObjEnemy_SetIntersectionCircleToShot()).

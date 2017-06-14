@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:18:10+02:00
+
+====== GetShotDataInfoA1 ======
+
+Arguments:
+	1) graphic id
+	2) target
+		TARGET_PLAYER
+		TARGET_ENEMY
+	3) info type
+		INFO_RECT             : Coordinate rect list.
+								Returns real array: [left, top, right, bottom]
+		INFO_DELAY_COLOR      : Delay color RGB list.
+								Returns real array: [red, green, blue]
+		INFO_BLEND            : Blending type.
+								Returns real. can be BLEND_ALPHA, BLEND_ADD_RGB, or BLEND_ADD_ARGB
+		INFO_COLLISION        : Radius of collision detection.
+								Returns real
+		INFO_COLLISION_LIST   : List of collision hitbox radii and coordinates.
+								Returns real two-dimensional array: [radius, x, y]
+Return Value
+	value array based on info type
+Returns information depending on the information requested.

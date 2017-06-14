@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:38:10+02:00
+
+====== ObjItem SetItemID ======
+
+Parameters:
+ 1) object ID (real)
+ 2) item ID (real)
+Sets the ID of the item object, as defined in the item definition script.
+
+Ci-dessous, un exemple de script de définition
+
+Ci-dessous, la façondont on l'appelle dans un script

@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T17:30:25+02:00
+
+====== 16 System (Intermediate) ======
+
+ph3 made functions to be called by all scripts much easier. #System is a brand new glorious thing in ph3. All tasks called here will be automatically run by EVERY script that uses that System file. No more changing things in multiple places; just store all of your life counters, Difficulty images, and STG_Frame animations in #System. Also, you can install fonts here, and this is a great place to set the pause and end scene paths, as well as loading shot data for stages.
+
+Do all of the task calling, font installation, and scene pathing in @Initialize. @MainLoop should contain a yield and maybe a counting variable if you really need it. There is also an @Event here that controls magic circles and spell capture bonuses, as well as things that you set it up to run. It is highly recommended that you install a font and use custom fonts for all text objects simply so that all users will have a consistent font (since default fonts may have issues depending on your operating system settings). Make sure that the font actually installs!

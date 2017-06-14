@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:11:53+02:00
+
+====== RenderToTextureB1 ======
+
+Arguments:
+ 1) name of the target (char)
+ 2) object ID (real)
+ 3) render target clear (bool)
+Renders the specified object to texture.

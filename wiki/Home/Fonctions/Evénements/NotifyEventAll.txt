@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T15:46:44+02:00
+
+====== NotifyEventAll ======
+
+Calls the @Event of all scripts, triggering the specified event. The event type may use a value greater than EV_USER.
+
+== Input: ==
+1) event type (real/constant)
+2) arbitrary value (free)
+

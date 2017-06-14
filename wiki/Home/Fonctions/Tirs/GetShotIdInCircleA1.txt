@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:16:30+02:00
+
+====== GetShotIdInCircleA1 ======
+
+Arguments:
+	1) x-coordinate
+	2) y-coordinate
+	3) radius
+Returns:
+	Array
+Returns the object IDs of the bullets inside the given circle in an array.
+
+Inside the player script, it will only return enemy bullet IDs, and vice versa.

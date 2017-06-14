@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T16:05:34+02:00
+
+====== GetScriptInfoA1 ======
+
+== Input: ==
+'''
+1) file path (char)
+2) info type (constant)
+'''
+
+
+== Output: ==
+''1) constant (int) / name (char) of the selected type''
+
+== List of types and their output: ==
+* INFO_SCRIPT_TYPE:
+	TYPE_SCRIPT_PLAYER: Player script
+	TYPE_SCRIPT_SINGLE: Single script
+	TYPE_SCRIPT_PLURAL: Plural script
+	TYPE_SCRIPT_STAGE: Stage script
+	TYPE_SCRIPT_PACKAGE: Package script
+
+* INFO_SCRIPT_PATH:  			script path (char)
+* INFO_SCRIPT_ID: 				script #ID (char)
+* INFO_SCRIPT_TITLE: 			script #Title (char)
+* INFO_SCRIPT_TEXT: 				script #Text (char)
+* INFO_SCRIPT_IMAGE: 			script #Image (char)
+* INFO_SCRIPT_REPLAY_NAME: 	script #ReplayName (char)

@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T15:43:44+02:00
+
+====== GetEventArgument ======
+
+Input:
+1) argument index (real)
+
+Output:
+1) argument of the event currently triggered in @Event.
+(Can be an arbitrary value.)

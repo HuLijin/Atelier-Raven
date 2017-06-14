@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:26:30+02:00
+
+====== ObjShot SetIntersectionEnable ======
+
+Parameters:
+ 1) object ID (real)
+ 2) collision detection (bool)
+Sets whether collision detection of the shot object will be checked. If set to false, the shot object will have no collision detection.

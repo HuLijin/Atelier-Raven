@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:36:44+02:00
+
+====== Set2DCameraAngleZ ======
+
+Arguments:
+ 1) z-rotation (real)
+Sets the Z angle of the 2D Camera.

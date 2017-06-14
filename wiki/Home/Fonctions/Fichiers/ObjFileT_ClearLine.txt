@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:07:42+02:00
+
+====== ObjFileT ClearLine ======
+
+== Input ==
+object ID (real)
+
+Que fait cette fonction ? Suppression totale de toutes les lignes, ou bien suppression de la dernière ligne ?

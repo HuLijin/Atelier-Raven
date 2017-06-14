@@ -1,0 +1,68 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T16:19:34+02:00
+
+====== Tutoriel - Danmakufu ph3 (de Sparen) ======
+de Sparen
+
+Welcome to my 0.12m to ph3 transition guide. It is meant to be a resource for people transitioning from 0.12m to ph3 or a guide for intermediate ph3 users who are trying to go from bosses to either stages or full games, and assumes intermediate-level knowledge of 0.12m. Those new to Danmakufu should consult Helepolis's video tutorials or some other source before reading this guide, as most if not all of this might be confusing. I tend to use quite a bit of CS (Computer Science) jargon, and this can be quite dense.
+
+Please note that at the bottom, there is a basic function library that may be quite useful for populating your own library with basic functions.
+
+I will not go over function equivalents for functions that have simply be renamed. For removed functions or highly changed functions, I will note major differences. For new functions, I will explain their function to the best of my ability if their usage is not obvious (like with GetMouseX).
+
+Note to those reading this tutorial in order to learn ph3: If there are errors or things are not clear, please notify me so that I can clarify them. If a section is labelled as Intermediate or Advanced, that is simply a label, and feel free to read those sections if you want to.
+
+Note to editors: insert a space in order to prevent # from turning into a list and to activate code blocks.
+
+So? Let's begin.
+
+===== Contenu =====
+
+[[+1 Basics]]
+[[+2 The Danmakufu Header and Framework]]
+	2.1 Header
+	2.2 Framework
+	2.3 @Event
+	2.4 NotifyEventAll (Advanced)
+[[+3 Plurals]]
+[[+4 Packages and .def files (Intermediate)]]
+	4.1 Def Files (Intermediate)
+[[+5 Boss and Enemy Objects]]
+	5.1 Single Enemy
+	5.2 Multiple Enemies (Intermediate)
+	5.3 Stage Enemies (Intermediate)
+[[+6 Shots and Lasers]]
+	6.1 Delay Lasers
+	6.2 Curvy Lasers
+[[+7 Move and Render Objects]]
+[[+8 Primitive Objects (Advanced)]]
+[[+9 Sound Objects]]
+[[+10 Text Objects]]
+	10.1 SetHorizontalAlignment
+	10.2 Fonts
+[[+11 Path, Time, and Debug Functions]]
+[[+12 Mesh Objects (Advanced)]]
+[[+13 Render Targets, Shader Objects and High Level Shader Language (Advanced)]]
+[[+14 File Objects (Advanced)]]
+	14.1 Data Types
+[[+15 Common Data (Intermediate)]]
+[[+16 System (Intermediate)]]
+[[+17 Background and Camera Functions]]
+[[+18 Script and System Functions]]
+[[+19 ShotSheets]]
+	19.1 Making Shotsheets (Advanced)
+[[+20 Players (Intermediate)]]
+[[+21 Keyboard and Mouse Input]]
+[[+22 Misc and Unintended Outcomes]]
+	22.1 Notes on Tasking and Bullet Delay
+	22.2 SetAutoDeleteObject(false);
+	22.3 return; vs. break;
+	22.4 Parentheses or no parentheses?
+	22.5 Threads and coroutines (Advanced)
+	22.6 Regarding semicolons
+	22.7 #include in an #include
+	22.8 Commenting
+	22.9 List of Helpful Functions
+[[+23 Debug Window]]
+[[+24 CREDITS]]

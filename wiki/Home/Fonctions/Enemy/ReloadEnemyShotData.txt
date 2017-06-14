@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:50:29+02:00
+
+====== ReloadEnemyShotData ======
+
+Arguments:
+ 1) path of the file (char)
+Reloads specified shot image file (you can also (re)load a file that has not been loaded by LoadEnemyShotData).
+
+missing explanation about calling the function several times (?)
+
+Unlike LoadEnemyShotData, this function can load the same file several times.

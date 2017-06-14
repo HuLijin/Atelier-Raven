@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:08:10+02:00
+
+====== CreateShotOA1 ======
+
+Arguments:
+	1) Object ID
+	2) speed
+	3) angle
+	4) graphic
+	5) delay
+Returns:
+	Object ID
+Creates a bullet that will spawn on the coordinates of the given object id. The bullet and its arguments act the same as CreateShotA1.

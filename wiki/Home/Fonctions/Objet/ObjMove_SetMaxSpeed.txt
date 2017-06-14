@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:30:52+02:00
+
+====== ObjMove SetMaxSpeed ======
+
+Arguments:
+ 1) object ID (real)
+ 2) speed (real)
+Sets the maximum/minimum speed which the object will approach using the ObjMove_SetAcceleration function.

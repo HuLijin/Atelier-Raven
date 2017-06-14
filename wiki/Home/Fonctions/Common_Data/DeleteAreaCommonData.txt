@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T12:59:04+02:00
+
+====== DeleteAreaCommonData ======
+
+Parameters:
+ 1) common data area (char)
+ 2) key (char)
+Removes the common data mapping with the specified key in the specified area.

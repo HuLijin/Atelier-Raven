@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:07:05+02:00
+
+====== atoi ======
+
+(string to integer)
+Arguments:
+ 1) value
+Converts a string to an integer. If there is a decimal part, then it will be truncated. If the string does not represent a valid number, then 0 will be returned.

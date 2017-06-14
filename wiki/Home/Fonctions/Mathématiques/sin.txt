@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-05T16:20:53+02:00
+
+====== sin ======
+
+Arguments:
+ 1) angle
+Returns the sine of the angle. Sine is a value between -1 and 1 that corresponds to the y-value in a coordinate plane.

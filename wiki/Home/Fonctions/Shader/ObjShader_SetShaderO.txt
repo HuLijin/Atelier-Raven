@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T12:52:14+02:00
+
+====== ObjShader SetShaderO ======
+
+Arguments:
+ 1) object ID (real)
+ 2) shader object ID (real)
+Returns: bool
+Set the shader in the shader object to the specified object

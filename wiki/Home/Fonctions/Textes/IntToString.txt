@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:06:06+02:00
+
+====== IntToString ======
+
+Arguments:
+ 1) value
+Returns the value as a string, omits any decimal places.

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:55:52+02:00
+
+====== GetVirtualKeyState ======
+
+Arguments:
+	1) virtual key name
+Returns:
+	1) key state
+Returns the state of the specified virtual key.
+
+Refer to the list at the top for list of Virtual Keys and Key States.

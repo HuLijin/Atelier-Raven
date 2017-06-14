@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:55:59+02:00
+
+====== ObjPrim SetVertexPosition ======
+
+Arguments:
+ 1) object ID (real)
+ 2) vertex index (real)
+ 3) x-coordinate (real)
+ 4) y-coordinate (real)
+ 5) z-coordinate (real)
+Sets the position of the specified vertex.

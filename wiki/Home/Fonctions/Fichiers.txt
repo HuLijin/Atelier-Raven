@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:04:34+02:00
+
+====== Fichiers ======
+
+Les fichiers sont séparés en deux groupes, les fichiers texte (extension .txt) et les fichiers binaires (extension .dat).
+Outre les fonctions commune d'ouverture, lecture et écriture, chacun des deux groupes dispose de ses propres fonctions de parcours et de récupération des données.
+
+== Fonctions communes ==
+[[+ObjFile_Create]]
+[[+ObjFile_Open]] 		(ouverture en lecture seule)
+[[+ObjFile_OpenNW]] 	(ouverture en écriture)
+[[+ObjFile_Store]] 		(écriture)
+[[+ObjFile_GetSize]] 
+
+== Fichiers texte ==
+[[+ObjFileT_GetLineCount]] 
+[[+ObjFileT_GetLineText]] 
+[[+ObjFileT_AddLine]] 
+[[+ObjFileT_ClearLine]] 
+[[+ObjFileT_SplitLineText]] 
+
+== Fichiers binaires - parcours ==
+[[+ObjFileB_SetByteOrder]] 
+[[+ObjFileB_GetPointer]] 
+[[+ObjFileB_GetSeek]] 
+
+== Fichiers binaires - convertisseurs ==
+[[+ObjFileB_SetCharacterCode]] 
+[[+ObjFileB_ReadBoolean]] 	
+[[+ObjFileB_ReadByte]] 		(int 1 octet)
+[[+ObjFileB_ReadShort]] 		(int 2 octets)
+[[+ObjFileB_ReadInteger]] 	(int 4 octets)
+[[+ObjFileB_ReadLong]] 		(int 8 octets)
+[[+ObjFileB_ReadFloat]] 		(real 4 octets)
+[[+ObjFileB_ReadDouble]] 	(real 8 octets)
+[[+ObjFileB_ReadString]] 		

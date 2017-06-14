@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T17:32:19+02:00
+
+====== 21 Keyboard and Mouse Input ======
+
+Note that USER1 is C and the USER2 is V by default.
+
+The virtual keys function the same way as in 0.12m. Do note that you can make your own virtual keys using AddVirtualKey. Note that this will require usage of AddReplayTargetVirtualKey.
+
+GetKeyState and GetMouseState use KEY_FREE, KEY_PUSH, KEY_HOLD, and KEY_PULL.
+
+Note that mouse commands cannot currently be used in replays. If you use the mouse in replays, it may later break them since Danmakufu is reading the mouse rather than the location of the mouse from replay data.
+
+That's all for user input via keyboard and mouse.

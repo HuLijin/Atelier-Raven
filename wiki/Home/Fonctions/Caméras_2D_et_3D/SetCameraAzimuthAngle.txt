@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:39:27+02:00
+
+====== SetCameraAzimuthAngle ======
+
+Arguments:
+ 1) azimuth angle from focus point (real)
+Sets the azimuth angle from the focus point.

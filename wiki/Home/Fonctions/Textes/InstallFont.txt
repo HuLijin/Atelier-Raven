@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:05:40+02:00
+
+====== InstallFont ======
+
+Arguments:
+ 1) Path to font
+Loads the given font, which can be used with ObjText_SetFontType, allowing for usage of fonts that are not standard to Windows. Returns true if successful. Note, anything other than a Shift-JIS font will not be displayed properly if Danmakufu is run with AppLocale (before ph3 [.1 pre2]).

@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:58:27+02:00
+
+====== ObjSprite2D SetDestCenter ======
+
+Arguments:
+ 1) object ID (real)
+Sets the drawing rectangle for the sprite by mapping the center of the source rectangle to (0, 0).
+
+For instance, if the rectangle set with ObjSprite2D_SetSourceRect is (24, 32, 48, 46) (which is 24 wide and 14 high), the destination rectangle becomes (-12, -7, 12, 7).

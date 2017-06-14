@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:17:02+02:00
+
+====== Obj IsValueExists ======
+
+Arguments:
+ 1) object ID (real)
+ 2) key (char)
+Checks whether the object has a key-value pair for the given key and returns true if it does.

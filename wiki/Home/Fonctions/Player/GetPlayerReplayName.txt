@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T08:41:06+02:00
+
+====== GetPlayerReplayName ======
+
+Returns the replay ID of the player. This value is defined inside the player script in the #ReplayName header.

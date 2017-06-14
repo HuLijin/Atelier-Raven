@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:54:20+02:00
+
+====== ObjPrim Create ======
+
+Arguments:
+ 1) object type (real)
+
+Returns: object ID (real)
+Creates a Primitive object. Object types are:
+
+OBJ_PRIMITIVE_2D: primitive (triangle) in the 2D space
+OBJ_SPRITE_2D: rectangle in the 2D space (usable by the ObjSprite2D_ functions).
+OBJ_SPRITE_LIST_2D: list of rectangles in the 2D space (usable by the ObjSpriteList2D_ functions).
+OBJ_PRIMITIVE_3D: primitive (triangle) in the 3D space
+OBJ_SPRITE_3D: rectangle in the 3D space (usable by the ObjSprite3D_ functions).

@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:32:07+02:00
+
+====== ObjMove AddPatternA2 ======
+
+Arguments:
+ 1) object ID (real)
+ 2) frame (real)
+ 3) speed (real)
+ 4) angle (real)
+ 5) acceleration (real)
+ 6) angular velocity (real)
+ 7) max speed (real)
+Similar to ObjMove_AddPatternA1. Can change object acceleration, angular velocity, and maximum speed. NO_CHANGE can also be used for these new parameters.

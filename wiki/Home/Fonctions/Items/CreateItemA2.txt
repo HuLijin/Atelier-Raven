@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-05T09:52:49+02:00
+
+====== CreateItemA2 ======
+
+Arguments:
+	1) type
+	2) x-coordinate
+	3) y-coordinate
+	4) x-coordinate destination
+	5) y-coordinate destination
+	6) scoring
+Return Value
+	Object ID
+Same as CreateItemA1, except now it will quickly move towards the specified coordinates before slowly falling down.

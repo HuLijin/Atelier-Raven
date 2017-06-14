@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:17:50+02:00
+
+====== GetObjectDistance ======
+
+Arguments:
+	1) Object ID 1
+	2) Object ID 2
+Returns:
+	Integer
+Returns the distance between the two objects. If one of the objects' ID is invalid, -1 will be returned.

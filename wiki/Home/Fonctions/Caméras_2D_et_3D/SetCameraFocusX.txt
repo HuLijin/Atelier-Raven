@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:38:44+02:00
+
+====== SetCameraFocusX ======
+
+Arguments:
+ 1) x-coordinate (real)
+Sets the x-coordinate of the camera focus.

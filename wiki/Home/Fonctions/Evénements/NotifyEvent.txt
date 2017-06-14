@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T15:46:34+02:00
+
+====== NotifyEvent ======
+
+Calls the @Event of the script with the specified ID, triggering the specified event. The event type may use a value greater than EV_USER.
+
+== Input: ==
+1) script ID (real)
+2) event type (real/constant)
+3) arbitrary value (free)

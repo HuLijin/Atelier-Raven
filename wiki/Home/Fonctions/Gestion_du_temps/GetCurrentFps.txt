@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:10:50+02:00
+
+====== GetCurrentFps ======
+
+Returns the current FPS.
+

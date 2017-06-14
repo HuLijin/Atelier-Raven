@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T16:26:14+02:00
+
+====== 1 Basics ======
+
+First thing's first. Almost every non-math function has been renamed in ph3. Also, **rand_int does not exist, use round(rand(int a, int b))**. ph3 also has a large number of new functions, which you should check out and look into. Note that a few functions have slightly different uses.
+
+Secondly, it is extremely important to note that **ph3 is heavily object-dependent**. If you struggled with objects in 0.12m, I highly suggest mastering things such as object bullets before hand.
+
+Thirdly, please note that ph3 uses **#ScriptVersion[3]** instead of #ScriptVersion[2].
+
+Fourth, in 0.12m, you could use \ in order to change directories instead of /. That's not possible in ph3. **For moving back a directory, use ./../**
+
+Also, **when you include functions, the paths in the included file are based on the position of the included file rather than the file including it**. (?)
+
+Fifth, in 0.12m, **the origin (0,0)** was located at the top left of the window. **In ph3, it is the top left of the playing field.**
+
+However, if you are new, don't let ph3 scare you. It's MUCH more flexible than 0.12m, mainly due to the fact that you need to make more things yourself. You can center the screen, shake the screen, go fullscreen, remove the STG_Frame, etc. It's much more streamlined in regards to CommonData usage and making entire games as well.
+
+Let me give examples of awesome ph3 things.
+
+* In MPP, the DDC invert is used and 3D backgrounds are suddenly much more streamlined
+* In Miransu's LOCAA 3 Contest Entry, there is fullscreen, a time system, and a system for lives and bombs, as well as all kinds of other cool things.
+* In YKK, you can choose your bosses like in GFW
+* In TalosMistake's Halloween Contest Entry, he flips the screen and controls like in DDC Stage 5
+* In Darkness1's Halloween Contest Entry, he controls the player when they enter a certain moving radius
+* In Thaws's RaNGE 10 Contest Entry, he allows the player to flip the bullets on the screen
+
+GTbot has also made a function for splitting and rearranging the screen. Also, a large number of scripts feature difficulty/effect level choosing inside the script.
+
+Much more is possible in ph3. There's a HRtP-style game already available, there's a working Aya photo player, and all kinds of other cool things are possible.

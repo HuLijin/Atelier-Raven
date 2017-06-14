@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:02:10+02:00
+
+====== ObjSprite3D SetBillboard ======
+
+Arguments:
+ 1) object ID (real)
+ 2) billboard (bool)
+If set to true, the object will always be facing the camera.

@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:36:27+02:00
+
+====== ObjCol GetIntersectedCount ======
+
+Parameters:
+ 1) object ID (real)
+Returns the number of times the specified object intersected with other objects during the previous frame.
+
+For example, this can be used to determine how many player shots have collided with an enemy (similar to GetHitCount in v0.12m).

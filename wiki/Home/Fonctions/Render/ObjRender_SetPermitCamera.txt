@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:21:03+02:00
+
+====== ObjRender SetPermitCamera ======
+
+Arguments:
+ 1) object ID (real)
+ 2) bool
+Determines whether the object is affected by the 2D camera. If set to false, the object will not be affected by the camera regardless of render priority.

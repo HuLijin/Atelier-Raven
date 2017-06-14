@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-05T09:51:54+02:00
+
+====== ObjItem SetAutoCollectEnable ======
+
+Parameters:
+ 1) object ID (real)
+ 2) enable auto-collect (bool)
+Sets whether the item will be pulled towards the player when the player moves past the point of auto-collection.

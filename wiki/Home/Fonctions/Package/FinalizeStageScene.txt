@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:38:29+02:00
+
+====== FinalizeStageScene ======
+
+Called only once at the end of a stage. Calling ends the stage processing. Defines the end point of replays
+
+Note: throws an error if the stage script is not yet closed.

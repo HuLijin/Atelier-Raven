@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:00:49+02:00
+
+====== SaveCommonDataAreaA1 ======
+
+Parameters:
+ 1) common data area (char)
+Saves everything in the specified common data area to a data file. Returns true if successful and false if the operation failed.

@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:43:22+02:00
+
+====== ObjSound SetRestartEnable ======
+
+Arguments:
+ 1) object ID (real)
+ 2) restart (bool)
+When set to true, allows the sound object to be restarted rather than continuing from where it left off.

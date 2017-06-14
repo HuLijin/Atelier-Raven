@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:41:39+02:00
+
+====== GetFreePlayerScriptInfo ======
+
+Arguments:
+ 1) Index of the player script (real - must be less than GetFreePlayerScriptCount)
+ 2) Requested information (real)
+	 INFO_SCRIPT_PATH        (char): Script path
+	 INFO_SCRIPT_ID          (char): The player script's #ID
+	 INFO_SCRIPT_TITLE       (char): The player script's #Title
+	 INFO_SCRIPT_TEXT        (char): The player script's #Text
+	 INFO_SCRIPT_IMAGE       (char): The player script's #Image
+	 INFO_SCRIPT_REPLAY_NAME (char): The player script's #ReplayName
+Returns various information about the player script.

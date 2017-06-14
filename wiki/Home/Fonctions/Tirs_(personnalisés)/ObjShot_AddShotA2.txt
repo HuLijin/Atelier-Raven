@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:25:47+02:00
+
+====== ObjShot AddShotA2 ======
+
+Parameters:
+ 1) source object ID (real)
+ 2) object ID of shot object to add (real)
+ 3) frame on which to activate added shot (real)
+ 4) distance to source shot object (real)
+ 5) angle to source shot object (real)
+At the specified frame, spawns the added shot object at the specified distance and angle from the source shot object's position.

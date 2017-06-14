@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:33:39+02:00
+
+====== Package ======
+
+Contents
+
+Fiche - [[+Menus]]
+ [hide] 
+[[+ClosePackage]]
+
+[[+InitializeStageScene]] 
+[[+FinalizeStageScene]] 
+[[+StartStageScene]] 
+[[+SetStageIndex]] 
+[[+SetStageMainScript]] 
+[[+SetStagePlayerScript]] 
+[[+SetStageReplayFile]] 
+[[+GetStageSceneState]] 
+[[+GetStageSceneResult]] 
+[[+PauseStageScene]] 
+[[+TerminateStageScene]]
+
+[[+GetLoadFreePlayerScriptList]] 
+[[+GetFreePlayerScriptCount]] 
+[[+GetFreePlayerScriptInfo]]
+
+[[+LoadReplayList]] 
+[[+GetValidReplayIndices]] 
+[[+IsValidReplayIndex]] 
+[[+GetReplayInfo]] 
+[[+SetReplayInfo]] 
+[[+SaveReplay]]
+
+[[+SetPauseScriptPath]] 
+[[+SetEndSceneScriptPath]] 
+[[+SetReplaySaveSceneScriptPath]]
+
+[[+GetTransitionRenderTargetName]] 

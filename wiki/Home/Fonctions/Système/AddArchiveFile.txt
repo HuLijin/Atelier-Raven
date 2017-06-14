@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:29:19+02:00
+
+====== AddArchiveFile ======
+
+Arguments:
+	1) archive file path
+Returns:
+	Boolean
+Adds the path to use when reading images or sounds from an archive file. Returns true if the archive was successfully read, false otherwise.

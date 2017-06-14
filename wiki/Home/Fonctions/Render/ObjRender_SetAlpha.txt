@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T11:18:23+02:00
+
+====== ObjRender SetAlpha ======
+
+Arguments:
+ 1) object ID (real)
+ 2) alpha (real)
+Sets the alpha value of the object. A value of 0 will make the object invisible. A value of 255 will give the object full opacity. Alpha blend type must be used for this to work. To get a transparent render using additive blend, the color has to be set to black (0, 0, 0) using ObjRender_SetColor.

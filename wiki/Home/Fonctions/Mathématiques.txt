@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-05T15:14:03+02:00
+
+====== Mathématiques ======
+Created samedi 05 septembre 2015
+
+Basique
+[[+add]] (+)		[[+subtract]] (-)
+[[+multiply]] (*)		[[+divide]] (/)		[[+remainder]] (%)
+
+Avancé
+[[+modc]] 
+[[+absolute]] 
+
+Puissances
+[[+power]] (^)
+[[+log]] 	[[+log10]] 
+
+Extrema
+[[+min]] 	[[+max]] 
+
+Trigonométrie
+[[+cos]] 	[[+acos]] 
+[[+sin]] 	[[+asin]] 
+[[+tan]] 	[[+atan]] 	[[+atan2]] 
+
+Aléatoire
+[[+rand]] 
+
+Arrondi
+[[+truncate]] = [[+floor]] < [[+round]] < [[+ceil]] 
+
+3D vers 2D	
+[[+Get2dPosition]]

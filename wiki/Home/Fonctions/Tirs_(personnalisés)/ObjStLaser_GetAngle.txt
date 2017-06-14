@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:29:20+02:00
+
+====== ObjStLaser GetAngle ======
+
+Parameters:
+ 1) object ID (real)
+Returns the angle at which the straight laser object is pointing (different from movement angle).

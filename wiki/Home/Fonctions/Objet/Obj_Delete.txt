@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:14:02+02:00
+
+====== Obj Delete ======
+
+Arguments:
+ 1) object ID (real)
+Deletes specified object.

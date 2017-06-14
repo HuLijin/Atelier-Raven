@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:27:00+02:00
+
+====== ObjShot IsSpellResist ======
+
+Parameters:
+ 1) object ID (real)
+Returns whether the shot object can be deleted by a player bomb. Shot object bomb resistance can be set with ObjShot_SetSpellResist.

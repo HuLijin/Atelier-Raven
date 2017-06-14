@@ -1,0 +1,97 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-01T17:02:14+02:00
+
+====== 5 Boss and Enemy Objects ======
+
+Did you ever want to make two enemies at once? Well... ph3 has that covered. You use one boss enemy and one enemy enemy.
+
+
+===== Single Enemy =====
+
+**At the start of a Single (before @Initialize), do the following:**
+
+'''
+let objBoss;
+let objScene=GetEnemyBossSceneObjectID();
+'''
+
+
+**Then in @Initialize...**
+
+'''
+objBoss = ObjEnemy_Create(OBJ_ENEMY_BOSS);
+ObjEnemy_Regist(objBoss);
+SetDamageRateAtFrame(objBoss,80,50,90);
+ObjMove_SetDestAtFrame(objBoss, GetCenterX, GetCenterY-120, 60);
+'''
+ 
+
+**In ph3, you must register every enemy.** SetDamageRateAtFrame is basically SetDamageRate and SetInvincibility in one neat package. GetCenterX, GetCenterY, and SetDamageRateAtFrame are available at the bottom of this tutorial in the Helpful Functions section.
+
+'''
+ObjEnemy_SetIntersectionCircleToShot(objBoss, ObjMove_GetX(objBoss), ObjMove_GetY(objBoss), 32); 
+ObjEnemy_SetIntersectionCircleToPlayer(objBoss, ObjMove_GetX(objBoss), ObjMove_GetY(objBoss), 24);
+'''
+
+
+**These functions are the hitbox functions for ph3.** Yes: they are longer. But at least you know which one is for the player and which one is for shots. **You can spawn multiple hitboxes, so you can dump one onto the objEnemy (this assumes that they share a lifebar).**
+
+**Enemies are controlled using ObjMove, although in this example, ObjRender is used for the enemy instead of ObjMove (both are possible, ObjMove is preferred).**
+
+Control the boss's position using ObjMove commands and shoot shots using ObjMove commands. Basically everything else is the same as 0.12m.
+
+
+===== Multiple Enemies (Intermediate) =====
+
+**At the start of a Single (before @Initialize), do the following:**
+
+'''
+let objBoss;
+let objEnemy;
+let objScene=GetEnemyBossSceneObjectID();
+'''
+
+
+**Then in @Initialize...**
+
+'''
+objBoss = ObjEnemy_Create(OBJ_ENEMY_BOSS);
+ObjEnemy_Regist(objBoss);
+SetDamageRateAtFrame(objBoss,80,50,90);
+ObjMove_SetDestAtFrame(objBoss, GetCenterX, GetCenterY-120, 60); 
+objEnemy = ObjEnemy_Create(OBJ_ENEMY);
+ObjEnemy_Regist(objEnemy);
+SetDamageRateAtFrame(objEnemy,80,50,90);
+ObjRender_SetPosition(objEnemy, Obj_GetValueD(objScene,"NitoriX", 0), Obj_GetValueD(objScene,"NitoriY", 0), 1);
+//Above retrieves Nitori's X and Y
+ObjMove_SetDestAtFrame(objEnemy, GetCenterX-120, GetCenterY-120, 60);
+'''
+
+
+**Note that the objBoss is the primary enemy and that its ID comes first when you get the array of all enemies.** If you only want one enemy, ignore all of the code referring to objEnemy.
+
+**As for Obj_GetValue, you can set a value in @Finalize, similar to CommonData. It's basically CommonData unique to a specific object, in this case, the objScene, since it contains all of the single scripts and can therefore pass on values.**
+
+'''
+ObjEnemy_SetIntersectionCircleToShot(objBoss, ObjMove_GetX(objEnemy), ObjMove_GetY(objEnemy), 32); 
+ObjEnemy_SetIntersectionCircleToPlayer(objBoss, ObjMove_GetX(objEnemy), ObjMove_GetY(objEnemy), 24);
+'''
+
+
+**This is code for a shared lifebar with the objBoss**
+
+**To save the position of the objEnemy for the next single, use Obj_SetValue(objScene, "ObjPos", [ObjMove_GetX(objEnemy), ObjMove_GetY(objEnemy)]); before you delete the objEnemy in TFinalize and in the @Initialize of the next single, ObjMove_SetX(objEnemy, Obj_GetValue(objScene, "ObjPos", [0,0])[0]); ObjMove_SetY(objEnemy, Obj_GetValue(objScene, "ObjPos", [0,0])[1]);** If you don't like arrays, you can set an X value and a Y value and call those separately.
+
+
+===== Stage Enemies (Intermediate) =====
+
+**In ph3, there are no functions for creating stage enemies. However, that does not mean that you cannot create your own.**
+
+**You must make your own functions.** You can LoadScript on a complete @Initialize, etc script in the stage that contains an enemy (and that file will contain tasks that identify enemies), include tasks that spawn and control enemies, etc.
+
+**The method is completely up to the scripter.** For those who want a single file to contain all enemies, Ozzy's Artifact 1 Contest entry contains a relatively simple (but extremely specific) way of controlling enemies. MPP and Fairies of Sorcery have pretty indecipherable enemy code.
+
+It is highly recommended that you do not start on stage enemies until you are comfortable with using either LoadScript or #includes and nested tasks. **Please do note that if you LoadUserShotData in #System, all enemies formed in the stage with that #System will be able to access that shot data.**
+
+The easiest way to spawn enemies is to #include files with tasks that spawn enemies and set their life, movement, etc. Use ObjMove for the enemy itself and ObjRender for the graphics.

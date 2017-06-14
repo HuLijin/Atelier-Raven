@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:14:37+02:00
+
+====== Obj SetVisible ======
+
+Arguments:
+ 1) object ID (real)
+ 2) visible (bool)
+Sets visibility of specified object. 
+If visible is set to false, the object will not be drawn.

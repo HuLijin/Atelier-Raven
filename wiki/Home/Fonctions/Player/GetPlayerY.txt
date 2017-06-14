@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T08:42:49+02:00
+
+====== GetPlayerY ======
+
+Returns: y-coordinate (real)
+Gets the y-coordinate of the player.

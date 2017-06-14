@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:31:50+02:00
+
+====== Evénements ======
+
+Les événements sont un outil puissant pour dire à un script de faire telle action à tel moment. En particulier si l'action est déclenchée par un autre script !
+Le fonctionnement est simple : le script A envoie une notification à un script B, le script B effectue une action en réponse à la notification. 
+Les événements fonctionnent en utilisant trois éléments :
+
+== les notifications d'événements ==
+	Ce sont des mots-clés prédéfinis au sein du programme qui renvoient à une action précise, comme la collecte d'un objet, la perte d'une vie, le déclenchement d'une last spell... La liste complète de ces notifications est définie dans la fiche [[+Liste des EV prédéfinis]]. Ces notifications sont envoyés automatiquement par Danmakufu,l'utilisateur n'a pas à se soucier d'indiquer à un script de les envoyer :)
+	Il existe également un autre groupe de notifications prédéfinies mais qui ne sont pas associées à une action précise par le logiciel. C'est à l'utilisateur d'associer à une action d'un script  une notification d'un autre script, via les deux très puissantes fonctions [[+NotifyEvent]] et [[+NotifyEventAll]] . Miransu propose un tutoriel complet pour apprendre à les utiliser : [[+Tutoriel - Notifications d'événement (de Miransu)]]
+	
+== la boucle @Event ==
+	C'est ici que l'utilisateur définit ce que le script doit faire en réponse à la notification reçue. Certaines notifications sont très dirigistes et ont besoin de lignes de code bien précises (en particulier toutes celles en lien avec les spells des boss). Pour toutes les autres, l'utilisateur peut faire absolument ce qu'il veut. C'est une boucle souvent négligée par les débutants alors qu'ele permet de faire des choses remarquables, comme les cut-in de bombes, des comportements uniques face à la collecte d'objets et bien plus encore.
+	
+== les fonctions associées aux événements ==
+	Je vous renvoie à leur doc pour voir comment les utiliser au mieux !
+	
+===== Contenu =====
+
+== Gestion des événements ==
+[[+GetEventType]]
+[[+GetEventArgument]]
+[[+NotifyEvent]]
+[[+NotifyEventAll]]
+
+== Aides à la programmation ==
+Tutoriel - [[+Tutoriel - Notifications d'événement (de Miransu)]]
+Fiche - [[+Liste des EV prédéfinis]]

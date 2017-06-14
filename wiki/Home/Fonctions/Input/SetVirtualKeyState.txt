@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:54:02+02:00
+
+====== SetVirtualKeyState ======
+
+Arguments:
+	1) virtual key name
+	2) key state
+Sets the given virtual key to the given state.
+
+The virtual key will be restored to its true state a frame after you stop calling this function.
+
+Keep in mind that if you set it to KEY_HOLD it will not go to KEY_PULL or KEY_PUSH.
+
+Refer to the list at the top for list of Virtual Keys and Key States.

@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T15:03:28+02:00
+
+====== ObjMesh SetAnimation ======
+
+Arguments:
+ 1) object ID (real)
+ 2) animation name (char)
+ 3) animation frame (real)
+Sets the animation of the mesh object. The animation frame of the specified animation name is drawn.

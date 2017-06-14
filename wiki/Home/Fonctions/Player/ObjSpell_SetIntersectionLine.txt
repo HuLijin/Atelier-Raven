@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T12:15:13+02:00
+
+====== ObjSpell SetIntersectionLine ======
+
+Arguments:
+ 1) object ID (real)
+ 2) start x-coordinate (real)
+ 3) start y-coordinate (real)
+ 4) end x-coordinate (real)
+ 5) end y-coordinate (real)
+ 6) line width (real)
+Sets the hit line for the spell object.

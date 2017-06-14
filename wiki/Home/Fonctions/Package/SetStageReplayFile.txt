@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:39:29+02:00
+
+====== SetStageReplayFile ======
+
+Arguments:
+ 1) path to the replay file (path)
+Can only be called after InitializeStageScene. 
+When this is called, the stage script will be run through once with the replay controlling things such as player movement. 
+You don't have to start from the very first stage, and you can start from the middle of a stage. (unsure)

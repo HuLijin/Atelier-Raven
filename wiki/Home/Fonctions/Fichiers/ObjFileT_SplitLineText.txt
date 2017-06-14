@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:07:54+02:00
+
+====== ObjFileT SplitLineText ======
+
+== Input ==
+object ID (real)
+sans doute l'index de la ligne à récupérer ??? (real)
+sans doute le symbole de split ??? (real)

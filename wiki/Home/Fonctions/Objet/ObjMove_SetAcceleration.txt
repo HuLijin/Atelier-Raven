@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:30:32+02:00
+
+====== ObjMove SetAcceleration ======
+
+Arguments:
+ 1) object ID (real)
+ 2) acceleration (real)
+Sets the movement acceleration per frame for the object.

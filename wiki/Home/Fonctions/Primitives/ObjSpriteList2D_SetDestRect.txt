@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:59:43+02:00
+
+====== ObjSpriteList2D SetDestRect ======
+
+Arguments:
+ 1) object ID (real)
+ 2) left (real)
+ 3) top (real)
+ 4) right (real)
+ 5) bottom (real)
+Sets the drawing rectangle for the sprite. This is the rectangle where the sprite will be drawn.

@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T16:23:20+02:00
+
+====== ObjShot SetDelay ======
+
+Parameters:
+ 1) object ID (real)
+ 2) frames (real)
+Delays the shot object, firing it after the specified number of frames. Bullets will glow to announce delay; lasers will be shown very thin.

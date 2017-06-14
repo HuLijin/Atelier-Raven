@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T13:01:16+02:00
+
+====== LoadCommonDataAreaFromReplayFile ======
+
+Parameters:
+ 1) common data area (char)
+Loads the specified common data area from the replay file. Returns true if successful and false if the operation failed. If this function is called during gameplay, Danmakufu will present an error.

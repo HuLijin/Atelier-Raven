@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T14:52:44+02:00
+
+====== ObjEnemyBossScene Create ======
+
+Returns: object ID (real)
+Creates a Boss Scene object and returns its ID.

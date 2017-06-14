@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:55:02+02:00
+
+====== GetMouseX ======
+
+Returns the mouse's X coordinate. The origin for the mouse coordinates is the upper left of the Danmakufu window (0, 0).
+
+Mouse coordinates will be properly adjusted according to the resizing of Danmakufu's window.

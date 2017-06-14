@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T09:41:52+02:00
+
+====== ObjSound Play ======
+
+Arguments:
+ 1) object ID (real)
+Plays the sound file associated to the object.

@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:48:45+02:00
+
+====== GetFileDirectory ======
+
+Parameters:
+ 1) file path (char)
+Returns the directory of the specified file path. Specifically, returns the input string up to the rightmost forward slash, with backslashes removed.

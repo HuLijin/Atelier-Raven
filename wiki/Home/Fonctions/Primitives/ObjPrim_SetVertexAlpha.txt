@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-06T14:56:50+02:00
+
+====== ObjPrim SetVertexAlpha ======
+
+Arguments:
+ 1) object ID (real)
+ 2) vertex index (real)
+ 3) alpha value (real)
+Sets the alpha value of the specified vertex (0-255).

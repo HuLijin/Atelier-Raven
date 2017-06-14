@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T08:44:31+02:00
+
+====== SetPlayerAutoItemCollectLine ======
+
+Arguments:
+ 1) y-coordinate
+Sets the y-coordinate of the auto collect line.
+
+A negative value removes the line.
+
+Default is no line.

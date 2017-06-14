@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-09-04T08:39:48+02:00
+
+====== GetPlayerInvincibilityFrame ======
+
+Returns: invincibility frames (real)
+Gets the amount of frames the player is invincible.
