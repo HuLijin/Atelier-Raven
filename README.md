@@ -1,15 +1,14 @@
-# Bienvenue sur l'atelier de jeu-vidéo de Raven's Requiem !
+# Bienvenue sur l'atelier de jeu-vidéo de feu Raven's Requiem !
 
-## Au programme de l'été 2017
+## Au programme
 
-On va apprendre à créer un petit jeu en 2D de type _shoot'em up_ (ou _shmup_) tous ensemble.
-
-Je vous ai donc sélectionné un petit logiciel sympathique comme tout qui s'appelle Danmakufu et qui permet de créer assez facilement des jeux dans l'esprit de la série des Touhou.
+Créer un petit jeu en 2D de type _shoot'em up_ (ou _shmup_).
+J'ai sélectionné un petit logiciel sympathique comme tout qui s'appelle Danmakufu et qui permet de créer assez facilement des jeux dans l'esprit de la série des Touhou.
 
 
 ## Comment participer ?
 
-* Il faut être membre de la CL Raven's Requiem, ou avoir accès au forum, au discord ou à la page facebook de la CL.
+* Il faut juste me connaitre. J'utilise beaucoup Discord. Voir point 3.
 * Il faut télécharger le logiciel et tout ce qui va avec (en cliquant sur le gros bouton vert en haut à droite).
 * Pas obligatoire, mais ce sera un gros plus, il faudrait pouvoir se connecter sur le discord pour pouvoir m'entendre. Ça sera plus simple pour que je vous explique ce qu'il faut faire.
 
@@ -18,8 +17,7 @@ NB : les utilisateurs de Github peuvent cloner le dépôt et peuvent même deman
 
 ## Quand participer ?
 
-Quand je serai moi-même en vacances ! Donc disons début Juillet. L'idéal ce serait qu'on puisse se réunir 1 fois par semaine. Comme tout le monde a un emploi du temps bien chargé en ce moment, je pense que je ferai plusieurs fois la même séance par semaine, avec 2-3 personnes à chaque fois.
-
+N'importe quand. Pour l'instant c'est plus ou moins en pause. J'ai traduit certains trucs, les plus faciles à prendre en main. Il m'en reste d'autres à traduire. Et ensuite, il y a plus ou moins tout le jeu à créer.
 
 ### Je suis curieux, j'ai déjà téléchargé le logiciel, qu'est-ce qu'il faut faire après ?
 
